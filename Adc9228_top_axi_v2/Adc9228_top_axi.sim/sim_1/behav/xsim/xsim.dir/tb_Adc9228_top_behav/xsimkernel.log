@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_Adc9228_top_behav/xsimk.exe -simmode gui -wdb tb_Adc9228_top_behav.wdb -simrunnum 0 -socket 63703
+Design successfully loaded
+Design Loading Memory Usage: 12236 KB (Peak: 12236 KB)
+Design Loading CPU Usage: 140 ms

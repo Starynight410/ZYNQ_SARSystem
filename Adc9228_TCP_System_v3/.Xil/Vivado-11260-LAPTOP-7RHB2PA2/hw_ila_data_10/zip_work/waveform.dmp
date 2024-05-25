@@ -1,0 +1,15 @@
+=========================================
+              ILA Data Dump
+=========================================
+core_id                :TCP:localhost:3121_jsn-DLC9LP-00000000000000-23727093-0-BS-1-BS-1-090000SLV
+data_width             :0
+sample_count           :0
+has_timestamps         :false
+clock_frequency_hz     :0
+timestamp_counter_width:0
+window_marks           :
+trigger_marks      :
+gaps               :
+timestamps         :
+gap_timestamps     :
+data_per_channel   :

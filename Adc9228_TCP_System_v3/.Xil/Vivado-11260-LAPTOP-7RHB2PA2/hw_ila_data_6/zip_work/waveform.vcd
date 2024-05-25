@@ -1,0 +1,63 @@
+$date
+        2023-Aug-31 14:37:01
+$end
+$version
+        Vivado v2017.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 2 " Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/iTrigOrigin [1:0] $end
+$var reg 1 $ Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_1 $end
+$var reg 1 % Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_2 $end
+$var reg 1 & Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_3 $end
+$var reg 1 ' Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_4 $end
+$var reg 1 ( Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_5 $end
+$var reg 1 ) Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_6 $end
+$var reg 1 * Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_7 $end
+$var reg 1 + Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_8 $end
+$var reg 1 , Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_9 $end
+$var reg 1 - Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_10 $end
+$var reg 1 . Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_11 $end
+$var reg 2 / Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/rTrigVector [1:0] $end
+$var reg 1 1 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_12 $end
+$var reg 1 2 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_13 $end
+$var reg 1 3 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_14 $end
+$var reg 1 4 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_15 $end
+$var reg 1 5 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_16 $end
+$var reg 1 6 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_17 $end
+$var reg 1 7 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_18 $end
+$var reg 1 8 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_19 $end
+$var reg 1 9 Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_20 $end
+$var reg 1 : Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_21 $end
+$var reg 1 ; Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_22 $end
+$var reg 1 < Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_23 $end
+$var reg 1 = Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_24 $end
+$var reg 1 > Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_25 $end
+$var reg 32 ? Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/rTrigToggle [31:0] $end
+$var reg 4 _ Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/rCAP_cur_state [3:0] $end
+$var reg 1 c Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/rStateToFINISHIntr $end
+$var reg 2 d Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/oTrigVectorPending [1:0] $end
+$var reg 1 f Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_26 $end
+$var reg 1 g Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_27 $end
+$var reg 1 h Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_28 $end
+$var reg 1 i Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_29 $end
+$var reg 1 j Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_30 $end
+$var reg 1 k Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_31 $end
+$var reg 1 l Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_32 $end
+$var reg 1 m Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_33 $end
+$var reg 1 n Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_34 $end
+$var reg 1 o Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_35 $end
+$var reg 1 p Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_36 $end
+$var reg 1 q Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_37 $end
+$var reg 1 r Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0>_38 $end
+$var reg 1 s Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/<const0> $end
+$var reg 1 t Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/iTrigDMAStart $end
+$var reg 32 u Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/iTrigDMAPosition [31:0] $end
+$var reg 32 7" Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/iTrigDMAStartAddr [31:0] $end
+$var reg 1 W" _TRIGGER $end
+$var reg 1 X" _WINDOW $end
+$var reg 1 Y" _GAP $end
+$upscope $end
+$enddefinitions $end

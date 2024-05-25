@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3" --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_0" --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_1" --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/PulseConvert.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/TriggerDMA.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/TriggerGen.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/TriggerInterface.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/TriggerMux.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/axi_dma.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/axi_dma_rd.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/axi_dma_wr.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/axis_adapter.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/axis_async_fifo.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/axis_async_fifo_adapter.v" \
+"../../../../../TriggerCh/TriggerCh.srcs/sources_1/new/TriggerCh.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

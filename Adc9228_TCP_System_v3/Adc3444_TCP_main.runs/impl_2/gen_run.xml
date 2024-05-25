@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7z020clg400-1" LaunchTime="1694098552">
+  <File Type="PWROPT-DCP" Name="Adc3444_TCP_wrapper_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Adc3444_TCP_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Adc3444_TCP_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Adc3444_TCP_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Adc3444_TCP_wrapper_reports.tcl"/>
+  <File Type="BG-DRC" Name="Adc3444_TCP_wrapper.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Adc3444_TCP_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Adc3444_TCP_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Adc3444_TCP_wrapper.hwdef"/>
+  <File Type="OPT-DCP" Name="Adc3444_TCP_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Adc3444_TCP_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Adc3444_TCP_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Adc3444_TCP_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Adc3444_TCP_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Adc3444_TCP_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Adc3444_TCP_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Adc3444_TCP_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Adc3444_TCP_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Adc3444_TCP_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Adc3444_TCP_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Adc3444_TCP_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Adc3444_TCP_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Adc3444_TCP_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Adc3444_TCP_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Adc3444_TCP_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Adc3444_TCP_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Adc3444_TCP_wrapper_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Adc3444_TCP_wrapper.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Adc3444_TCP_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Adc3444_TCP_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Adc3444_TCP_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Adc3444_TCP_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Adc3444_TCP_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Adc3444_TCP_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Adc3444_TCP_wrapper.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Adc3444_TCP_wrapper_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Adc3444_TCP_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Adc3444_TCP_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Adc3444_TCP_wrapper.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Adc3444_TCP_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Adc3444_TCP_wrapper.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Adc3444_TCP_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Adc3444_TCP_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Adc3444_TCP_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Adc3444_TCP_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Adc3444_TCP_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Adc3444_TCP_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Adc3444_TCP_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Adc3444_TCP_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Adc3444_TCP_wrapper.vdi"/>
+  <File Type="ROUTE-CLK" Name="Adc3444_TCP_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Adc3444_TCP_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Adc3444_TCP_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Adc3444_TCP_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Adc3444_TCP_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Adc3444_TCP_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Adc3444_TCP_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="Adc3444_TCP_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Adc3444_TCP_wrapper.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Adc3444_TCP_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Adc3444_TCP_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Adc3444_TCP/hdl/Adc3444_TCP_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Adc3444_TCP_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_xlconcat_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_TriggerCh_3_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_smartconnect_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_TriggerCh_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_TriggerCh_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_TriggerCh_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_Adc9228_top_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_processing_system7_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_smartconnect_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_smartconnect_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_smartconnect_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_system_Trig_Ch0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_system_ila_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Adc3444_TCP_system_ila_0_0"/>
+</GenRun>

@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/hw_1/wave/hw_ila_data_11/hw_ila_data_11.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2048001fs"></ZoomEndTime>
+      <Cursor1Time time="357000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="352"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="55" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="group242" type="group">
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Detail_Data">Interface_(i11:s0)_(TriggerCh_0_m_axi)_tooltip</obj_property>
+      <obj_property name="Render_Data">Interface_(i11:s0)_(TriggerCh_0_m_axi)</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">OliveDrab</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <wvobject fp_name="group304" type="group">
+         <obj_property name="label">slot_0 : TriggerCh_0_m_axi : Write Transactions 1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_0___TriggerCh_0_m_axi___Write_Transactions_1_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_0___TriggerCh_0_m_axi___Write_Transactions_1</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">LightSeaGreen</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
+      <wvobject fp_name="group303" type="group">
+         <obj_property name="label">slot_0 : TriggerCh_0_m_axi : Write Transactions 0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_0___TriggerCh_0_m_axi___Write_Transactions_0_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_0___TriggerCh_0_m_axi___Write_Transactions_0</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">LightSeaGreen</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
+      <wvobject fp_name="group243" type="group">
+         <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AR Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">AR_Channel_(i11:s0)_(TriggerCh_0_m_axi)_tooltip</obj_property>
+         <obj_property name="Render_Data">AR_Channel_(i11:s0)_(TriggerCh_0_m_axi)</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+         <obj_property name="CustomSignalColor">Yellow</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arvalid</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arready</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arid" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arid[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arid[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARID</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_araddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_araddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_araddr[31:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arburst" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arburst[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arburst[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARBURST</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlen" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlen[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arlen[7:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARLEN</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arsize" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arsize[2:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARSIZE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arcache" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arcache[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arcache[3:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARCACHE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arprot" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arprot[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arprot[2:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARPROT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlock" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlock</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arlock</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARLOCK</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arqos" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arqos[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arqos[3:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARQOS</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_ar_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AR_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group256" type="group">
+         <obj_property name="label">slot_0 : TriggerCh_0_m_axi : R Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">R_Channel_(i11:s0)_(TriggerCh_0_m_axi)_tooltip</obj_property>
+         <obj_property name="Render_Data">R_Channel_(i11:s0)_(TriggerCh_0_m_axi)</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+         <obj_property name="CustomSignalColor">Gold</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rvalid</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rready</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rlast</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rid" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rid[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rid[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RID</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rdata[63:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rresp[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_r_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : R_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group264" type="group">
+         <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AW Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">AW_Channel_(i11:s0)_(TriggerCh_0_m_axi)_tooltip</obj_property>
+         <obj_property name="Render_Data">AW_Channel_(i11:s0)_(TriggerCh_0_m_axi)</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+         <obj_property name="CustomSignalColor">MediumTurquoise</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awvalid</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awready</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awid" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awid[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awid[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWID</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awaddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awaddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awaddr[31:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awburst" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awburst[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awburst[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWBURST</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlen" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlen[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awlen[7:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWLEN</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awsize" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awsize[2:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWSIZE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awcache" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awcache[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awcache[3:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWCACHE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awprot" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awprot[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awprot[2:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWPROT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlock" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlock</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awlock</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWLOCK</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awqos" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awqos[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awqos[3:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWQOS</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aw_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AW_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group277" type="group">
+         <obj_property name="label">slot_0 : TriggerCh_0_m_axi : W Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">W_Channel_(i11:s0)_(TriggerCh_0_m_axi)_tooltip</obj_property>
+         <obj_property name="Render_Data">W_Channel_(i11:s0)_(TriggerCh_0_m_axi)</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+         <obj_property name="CustomSignalColor">Teal</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wvalid</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wready</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wlast</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wdata[63:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wstrb" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wstrb[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wstrb[7:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WSTRB</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group283" type="group">
+         <obj_property name="label">slot_0 : TriggerCh_0_m_axi : B Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">B_Channel_(i11:s0)_(TriggerCh_0_m_axi)_tooltip</obj_property>
+         <obj_property name="Render_Data">B_Channel_(i11:s0)_(TriggerCh_0_m_axi)</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+         <obj_property name="CustomSignalColor">SteelBlue</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_bvalid</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_bready</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bid" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bid[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_bid[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BID</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_bresp[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_b_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : TriggerCh_0_m_axi : B_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_ar_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_ar_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aw_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_aw_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_b_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_b_ctrl[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_r_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_r_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_r_ctrl[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_w_ctrl" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_w_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_w_ctrl[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_ar_cnt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_ar_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_ar_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AR_CNT</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_araddr" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_araddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARADDR</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arburst" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arburst[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARBURST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arcache" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arcache[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARCACHE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="AR_Channel_(i11:s0)_(TriggerCh_0_m_axi)" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">AR_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AR_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AR Channel  Events</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">Yellow</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arid" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arid[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlen" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arlen[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARLEN</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlock" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arlock</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arlock</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARLOCK</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arprot" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARPROT</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arqos" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arqos[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARQOS</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arready" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arready</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arsize" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arsize[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARSIZE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aruser" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aruser[4:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_aruser[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARUSER</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arvalid" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_arvalid</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : ARVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aw_cnt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_aw_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_aw_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AW_CNT</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awaddr" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awaddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWADDR</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awburst" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awburst[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWBURST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awcache" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awcache[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWCACHE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="AW_Channel_(i11:s0)_(TriggerCh_0_m_axi)" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">AW_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AW_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AW Channel  Events</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">MediumTurquoise</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awid" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awid[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlen" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awlen[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWLEN</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlock" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awlock</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awlock</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWLOCK</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awprot" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWPROT</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awqos" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awqos[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWQOS</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awready" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awready</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awsize" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awsize[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWSIZE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awuser" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awuser[4:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awuser[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWUSER</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awvalid" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_awvalid</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : AWVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_b_cnt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_b_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_b_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : B_CNT</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="B_Channel_(i11:s0)_(TriggerCh_0_m_axi)" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">B_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="ObjectShortName">B_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : B Channel  Events</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">SteelBlue</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bid" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_bid[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bready" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_bready</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bresp" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_bresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BRESP</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bvalid" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_bvalid</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : BVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Interface_(i11:s0)_(TriggerCh_0_m_axi)" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Interface_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Interface_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : Interface  Events</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">OliveDrab</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_r_cnt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_r_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_r_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : R_CNT</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="R_Channel_(i11:s0)_(TriggerCh_0_m_axi)" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">R_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : R Channel  Events</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">Gold</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rdata" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RDATA</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rid" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rid[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rlast" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rlast</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rlast</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rready" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rready</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rresp" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RRESP</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rvalid" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_rvalid</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : RVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="W_Channel_(i11:s0)_(TriggerCh_0_m_axi)" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">W_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="ObjectShortName">W_Channel_(i11:s0)_(TriggerCh_0_m_axi)[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : W Channel  Events</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
+      <obj_property name="CustomSignalColor">Teal</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wdata" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_wdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WDATA</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wlast" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wlast</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_wlast</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wready" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_wready</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wstrb" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_wstrb[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WSTRB</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">net_slot_0_axi_wvalid</obj_property>
+      <obj_property name="label">slot_0 : TriggerCh_0_m_axi : WVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

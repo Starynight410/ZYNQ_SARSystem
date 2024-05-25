@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon May 13 17:49:13 2024
+# Process ID: 9300
+# Current directory: C:/ZynqProject/ZynqProject_v17/Adc9228_TCP_System_v3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9456 C:\ZynqProject\ZynqProject_v17\Adc9228_TCP_System_v3\Adc3444_TCP_main.xpr
+# Log file: C:/ZynqProject/ZynqProject_v17/Adc9228_TCP_System_v3/vivado.log
+# Journal file: C:/ZynqProject/ZynqProject_v17/Adc9228_TCP_System_v3\vivado.jou
+# Running On: buaa203, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+WAWARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Software_Install/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not availablopexit
+INFO: [Common 17-206] Exiting Vivado at Mon May 13 17:49:42 2024...
+3/Adc3444_TCP_main.xpr
+INFO: [Project 1-313] Project file moved from 'E:/ZynqProject_v17/Adc9228_TCP_System_v3' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/ZynqProject/TriggerCh', nor could it be found using path 'E:/TriggerCh'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/ZynqProject/TriggerCh'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/ZynqProject/ZynqProject_v17/Adc9228_top_axi_v2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Software_Install/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [BD 41-1663] The design 'Adc3444_TCP.bd' cannot be modified due to following reason(s):
+* Project is read-only. Please run 'save_project_as' before making any change to the bd-design. 
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'Adc3444_TCP.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+Adc3444_TCP_processing_system7_0_1
+Adc3444_TCP_Adc9228_top_0_0
+Adc3444_TCP_TriggerCh_3_1
+Adc3444_TCP_xlconcat_0_1
+Adc3444_TCP_TriggerCh_0_2
+Adc3444_TCP_TriggerCh_2_0
+Adc3444_TCP_TriggerCh_1_0
+Adc3444_TCP_xbar_0
+Adc3444_TCP_auto_pc_0
+Adc3444_TCP_ps7_0_axi_periph_0
+Adc3444_TCP_rst_Adc9228_top_0_10M_2
+Adc3444_TCP_system_ila_0_0
+Adc3444_TCP_smartconnect_0_0
+Adc3444_TCP_smartconnect_0_1
+Adc3444_TCP_smartconnect_0_2
+Adc3444_TCP_smartconnect_0_3
+Adc3444_TCP_system_Trig_Ch0_0
+Adc3444_TCP_system_ila_0_1
+
+WARNING: [Project 1-229] Project 'Adc3444_TCP_main.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1499.383 ; gain = 561.207
+update_compile_order -fileset sources_1
+open_bd_design {C:/ZynqProject/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+Reading block design file <C:/ZynqProject/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_Adc9228_top_0
+Adding component instance block -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_0
+Adding component instance block -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_1
+Adding component instance block -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_2
+Adding component instance block -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_3
+Adding component instance block -- xilinx.com:user:Adc9228_top:1.0 - Adc9228_top_0
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_Trig_Ch0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_1
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_2
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_3
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_axi_periph
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_Trig_Ch1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <Adc3444_TCP> from block design file <C:/ZynqProject/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd>
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 13 22:35:38 2024...

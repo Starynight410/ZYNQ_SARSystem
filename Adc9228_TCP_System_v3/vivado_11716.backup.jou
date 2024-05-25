@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Sep  9 15:28:59 2023
+# Process ID: 11716
+# Current directory: E:/ZynqProject_v17/Adc9228_TCP_System_v3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12336 E:\ZynqProject_v17\Adc9228_TCP_System_v3\Adc3444_TCP_main.xpr
+# Log file: E:/ZynqProject_v17/Adc9228_TCP_System_v3/vivado.log
+# Journal file: E:/ZynqProject_v17/Adc9228_TCP_System_v3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+launch_sdk -workspace E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk -hwspec E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk/Adc3444_TCP_wrapper.hdf
+set_property PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/Adc9228_top_0/inst/ila_fifo_0_ins"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/Adc9228_top_0/inst/ila_generate_vaild_0_ins"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_0/inst/ila_1_inst"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_0/inst/inst_TriggerDMA/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_5 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_1/inst/ila_1_inst"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_6 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_1/inst/inst_TriggerDMA/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_7 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_2/inst/ila_1_inst"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_8 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_9 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_3/inst/ila_1_inst"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_10 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_3/inst/inst_TriggerDMA/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_11 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_12 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_13 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_ila_axi_periph/inst/ila_lib"}]]
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq64'hXXXX_XXXX_XXXX_XXXX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_wdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq32'h0023_92C8 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awaddr -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+set_property TRIGGER_COMPARE_VALUE eq32'h0023_8000 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awaddr -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq32'h0023_8000 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awaddr -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+launch_sdk -workspace E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk -hwspec E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk/Adc3444_TCP_wrapper.hdf
+save_bd_design

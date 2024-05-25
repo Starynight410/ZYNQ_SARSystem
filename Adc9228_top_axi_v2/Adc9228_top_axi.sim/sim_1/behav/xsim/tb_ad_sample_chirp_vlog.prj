@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_0" --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_1" \
+"../../../../../../ZynqProject_py/Project_20230626_1and4_axi/project_5_eth.srcs/sim_1/new/tb_ad_sample_chirp.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

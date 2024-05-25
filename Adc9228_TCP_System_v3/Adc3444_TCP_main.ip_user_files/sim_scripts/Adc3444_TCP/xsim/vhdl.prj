@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/Adc3444_TCP/ip/Adc3444_TCP_rst_Adc9228_top_0_10M_2/sim/Adc3444_TCP_rst_Adc9228_top_0_10M_2.vhd" \
+
+nosort

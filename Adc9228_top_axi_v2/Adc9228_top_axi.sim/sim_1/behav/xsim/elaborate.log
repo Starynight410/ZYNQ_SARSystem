@@ -1,0 +1,80 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2017.4/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 3a19358066fc4f59a46b6fb7e40c2357 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_TriggerCh_behav xil_defaultlib.tb_TriggerCh xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 8 for port s_axi_awid [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:382]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 20 for port s_axi_awaddr [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:383]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 8 for port s_axi_bid [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:397]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 8 for port s_axi_arid [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:401]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 20 for port s_axi_araddr [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:402]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 8 for port s_axi_rid [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:411]
+WARNING: [VRFC 10-278] actual bit length 17 differs from formal bit length 32 for port s_axis_tdata [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:545]
+WARNING: [VRFC 10-278] actual bit length 17 differs from formal bit length 32 for port m_axis_tdata [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:549]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port m_axi_awqos [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:596]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port m_axi_awuser [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:597]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port m_axi_arqos [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:617]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port m_axi_aruser [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sim_1/new/tb_TriggerCh.v:618]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port wr_ptr [E:/ZynqProject_v17/TriggerCh/TriggerCh.srcs/sources_1/new/TriggerDMA.v:745]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rd_ptr [E:/ZynqProject_v17/TriggerCh/TriggerCh.srcs/sources_1/new/TriggerDMA.v:746]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port wr_ptr [E:/ZynqProject_v17/TriggerCh/TriggerCh.srcs/sources_1/new/TriggerDMA.v:792]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rd_ptr [E:/ZynqProject_v17/TriggerCh/TriggerCh.srcs/sources_1/new/TriggerDMA.v:793]
+WARNING: [VRFC 10-597] element index -1 into num_read_words_dc is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_2/simulation/fifo_generator_vlog_beh.v:5399]
+WARNING: [VRFC 10-597] element index -1 into num_write_words_dc is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_2/simulation/fifo_generator_vlog_beh.v:5449]
+WARNING: [VRFC 10-597] element index 3 into s_axis_tkeep is out of bounds [E:/ZynqProject_v17/TriggerCh/TriggerCh.srcs/sources_1/new/axis_adapter.v:259]
+WARNING: [VRFC 10-597] element index 105 into m_axis_reg is out of bounds [E:/ZynqProject_v17/TriggerCh/TriggerCh.srcs/sources_1/new/axis_async_fifo.v:251]
+WARNING: [VRFC 10-597] element index 105 into m_axis_reg is out of bounds [E:/ZynqProject_v17/TriggerCh/TriggerCh.srcs/sources_1/new/axis_async_fifo.v:252]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=25.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_2_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_2
+Compiling module unisims_ver.IBUFDS(DIFF_TERM="TRUE",IBUF_LOW...
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=64.0,...
+Compiling module xil_defaultlib.clk_wiz_3_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_3
+Compiling module unisims_ver.IDELAYCTRL_default
+Compiling module unisims_ver.IDELAYE2(HIGH_PERFORMANCE_MODE="...
+Compiling module unisims_ver.ODDR
+Compiling module unisims_ver.OBUFDS
+Compiling module unisims_ver.IDELAYE2(HIGH_PERFORMANCE_MODE="...
+Compiling module unisims_ver.IDDR(DDR_CLK_EDGE="SAME_EDGE_PIP...
+Compiling module xil_defaultlib.io
+Compiling module xil_defaultlib.pulse_generator
+Compiling module xil_defaultlib.adc_1
+Compiling module xil_defaultlib.Delay3Claps
+Compiling module xil_defaultlib.generate_vaild
+Compiling module xil_defaultlib.AD_control
+Compiling module xil_defaultlib.axi_ram(DATA_WIDTH=64,ADDR_WIDTH...
+Compiling module xil_defaultlib.axil_write
+Compiling module xil_defaultlib.axil_read
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_sync_stag...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_a...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_p...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1_sync_stag...
+Compiling module fifo_generator_v13_2_1.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_1.fifo_generator_v13_2_1(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.PulseConvert(NumberOfSpan=16)
+Compiling module xil_defaultlib.TriggerInterface(TrigStatusNum=2...
+Compiling module xil_defaultlib.TriggerGen
+Compiling module xil_defaultlib.TriggerMux
+Compiling module xil_defaultlib.axi_dma_rd(AXI_DATA_WIDTH=64,AXI...
+Compiling module xil_defaultlib.axi_dma_wr(AXI_DATA_WIDTH=64,AXI...
+Compiling module xil_defaultlib.axi_dma(AXI_DATA_WIDTH=64,AXI_AD...
+Compiling module xil_defaultlib.axis_adapter(S_DATA_WIDTH=16,S_K...
+Compiling module xil_defaultlib.axis_async_fifo(DATA_WIDTH=64,KE...
+Compiling module xil_defaultlib.axis_async_fifo_adapter(S_DATA_W...
+Compiling module xil_defaultlib.axis_adapter(S_DATA_WIDTH=16,S_K...
+Compiling module xil_defaultlib.axis_async_fifo(DATA_WIDTH=64,KE...
+Compiling module xil_defaultlib.axis_async_fifo_adapter(S_DATA_W...
+Compiling module xil_defaultlib.TriggerDMA(AXI_STRB_WIDTH=8)
+Compiling module xil_defaultlib.TriggerCh_default
+Compiling module xil_defaultlib.tb_TriggerCh
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TriggerCh_behav

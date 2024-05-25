@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_generate_vaild_behav/xsimk.exe -simmode gui -wdb tb_generate_vaild_behav.wdb -simrunnum 0 -socket 7469
+Design successfully loaded
+Design Loading Memory Usage: 10116 KB (Peak: 10116 KB)
+Design Loading CPU Usage: 156 ms
+Simulation completed
+Simulation Memory Usage: 10872 KB (Peak: 10872 KB)
+Simulation CPU Usage: 171 ms

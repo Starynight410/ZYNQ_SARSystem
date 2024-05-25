@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log Adc3444_TCP_TriggerCh_2_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adc3444_TCP_TriggerCh_2_0.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Adc3444_TCP_TriggerCh_2_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Adc3444_TCP_TriggerCh_2_0, cache-ID = bc9a8da72c583e47.
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  6 12:06:53 2023...

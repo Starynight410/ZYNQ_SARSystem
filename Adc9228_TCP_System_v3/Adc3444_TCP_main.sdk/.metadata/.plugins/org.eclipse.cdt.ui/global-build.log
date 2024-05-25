@@ -1,0 +1,69 @@
+17:51:59 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:52:23 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:139:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:143:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:172:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:121:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172080	   4708	88201504	88378292	5448bb4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+17:54:16 **** Auto Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:139:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:143:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:172:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:121:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172016	   4708	88201504	88378228	5448b74	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '

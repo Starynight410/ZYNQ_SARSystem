@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep  7 15:21:46 2023
+# Process ID: 15692
+# Current directory: E:/ZynqProject_v17/TriggerCh
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4468 E:\ZynqProject_v17\TriggerCh\TriggerCh.xpr
+# Log file: E:/ZynqProject_v17/TriggerCh/vivado.log
+# Journal file: E:/ZynqProject_v17/TriggerCh\vivado.jou
+#-----------------------------------------------------------
+start_gui

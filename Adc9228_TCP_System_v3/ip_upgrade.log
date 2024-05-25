@@ -1,0 +1,3711 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  7 16:40:01 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  7 16:29:40 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  7 15:50:16 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  7 11:45:39 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Sep  6 17:39:49 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0) from (Rev. 3) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Sep  6 11:51:21 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0) from (Rev. 2) to (Rev. 3)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Adc3444_TCP_Adc9228_top_0_0'.
+
+
+-Upgrade has added interface 'clk_100m_o' (xilinx.com:signal:clock:1.0)
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Sep  6 11:42:04 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_3_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_TriggerCh_3_1 (xilinx.com:user:TriggerCh:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Sep  6 11:42:04 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_TriggerCh_2_0 (xilinx.com:user:TriggerCh:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Sep  6 11:42:04 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_TriggerCh_1_0 (xilinx.com:user:TriggerCh:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Sep  6 11:42:03 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_TriggerCh_0_2 (xilinx.com:user:TriggerCh:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Sep  6 11:42:03 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Adc3444_TCP_Adc9228_top_0_0'.
+
+
+-Upgrade has removed interface 'clk_10m_o'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Adc3444_TCP_Adc9228_top_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'DataToTriCh0'
+
+-Upgrade has removed port 'DataToTriCh1'
+
+-Upgrade has removed port 'DataToTriCh2'
+
+-Upgrade has removed port 'DataToTriCh3'
+
+-Upgrade has removed port 'TrigInCh0'
+
+-Upgrade has removed port 'TrigInCh1'
+
+-Upgrade has removed port 'TrigInCh2'
+
+-Upgrade has removed port 'TrigInCh3'
+
+-Upgrade has removed port 'clk_10m_o'
+
+-Upgrade has added port 'DataToTriCh0_o'
+
+-Upgrade has added port 'DataToTriCh1_o'
+
+-Upgrade has added port 'DataToTriCh2_o'
+
+-Upgrade has added port 'DataToTriCh3_o'
+
+-Upgrade has added port 'TrigInCh0_o'
+
+-Upgrade has added port 'TrigInCh1_o'
+
+-Upgrade has added port 'TrigInCh2_o'
+
+-Upgrade has added port 'TrigInCh3_o'
+
+-Upgrade has added port 'clk_100m_o'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 16:06:05 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 15:34:49 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 12:06:18 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_3_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_3_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 10) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 12:06:18 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_2_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 10) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 12:06:18 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 10) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 12:06:18 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_2 (xilinx.com:user:TriggerCh:1.0) from (Rev. 10) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 12:06:18 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 10:21:49 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_3_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_3_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 43) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 10:21:49 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_2_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 43) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 10:21:49 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 43) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Aug 26 10:21:49 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_2 (xilinx.com:user:TriggerCh:1.0) from (Rev. 43) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Jul 31 15:53:36 2023
+| Host         : LAPTOP-7RHB2PA2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Jul 17 16:25:54 2023
+| Host         : DESKTOP-3EGBBSD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc9228_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc9228_top_0_0 (xilinx.com:user:Adc9228_top:1.0) from (Rev. 6) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Feb  9 12:25:50 2023
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 38) to (Rev. 39)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Nov  5 10:09:59 2022
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Nov  3 10:56:13 2022
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Oct 31 20:34:41 2022
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 35) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Oct 31 14:46:20 2022
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 34) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Oct 30 17:50:57 2022
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Oct 30 17:50:33 2022
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0 (Rev. 33)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Oct 30 16:34:11 2022
+| Host         : Jenson running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 15:09:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 15:01:56 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 14:57:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 28) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 14:56:21 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 14:40:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 27) to (Rev. 28)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Adc3444_TCP_Adc3444_top_0_1'.
+
+
+-Upgrade has removed interface 'S_AXI_ACLK'
+
+-Upgrade has removed interface 'S_AXI_ARESETN'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 14:23:49 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 26) to (Rev. 27)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Adc3444_TCP_Adc3444_top_0_1'.
+
+
+-Upgraded interface 'S_AXILite_aclk' (xilinx.com:signal:clock:1.0) differs from original interface 'xilinx.com:signal:reset:1.0'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 10:56:32 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 10:48:54 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 23) to (Rev. 25)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Adc3444_TCP_Adc3444_top_0_1'.
+
+
+-Upgrade has added interface 'S_AXILite' (xilinx.com:interface:aximm:1.0)
+
+-Upgrade has added interface 'S_AXILite_aclk' (xilinx.com:signal:reset:1.0)
+
+-Upgrade has added interface 'S_AXILite_aresetn' (xilinx.com:signal:reset:1.0)
+
+-Upgrade has added interface 'S_AXI_ACLK' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 'S_AXI_ARESETN' (xilinx.com:signal:reset:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Adc3444_TCP_Adc3444_top_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'S_AXI_ACLK'
+
+-Upgrade has added port 'S_AXI_ARADDR'
+
+-Upgrade has added port 'S_AXI_ARESETN'
+
+-Upgrade has added port 'S_AXI_ARPROT'
+
+-Upgrade has added port 'S_AXI_ARREADY'
+
+-Upgrade has added port 'S_AXI_ARVALID'
+
+-Upgrade has added port 'S_AXI_AWADDR'
+
+-Upgrade has added port 'S_AXI_AWPROT'
+
+-Upgrade has added port 'S_AXI_AWREADY'
+
+-Upgrade has added port 'S_AXI_AWVALID'
+
+-Upgrade has added port 'S_AXI_BREADY'
+
+-Upgrade has added port 'S_AXI_BRESP'
+
+-Upgrade has added port 'S_AXI_BVALID'
+
+-Upgrade has added port 'S_AXI_RDATA'
+
+-Upgrade has added port 'S_AXI_RREADY'
+
+-Upgrade has added port 'S_AXI_RRESP'
+
+-Upgrade has added port 'S_AXI_RVALID'
+
+-Upgrade has added port 'S_AXI_WDATA'
+
+-Upgrade has added port 'S_AXI_WREADY'
+
+-Upgrade has added port 'S_AXI_WSTRB'
+
+-Upgrade has added port 'S_AXI_WVALID'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep  8 10:36:00 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed May 25 16:29:08 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_axi_dna_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_axi_dna_0_0 (Opensource:user:axi_dna:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr 15 09:32:11 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 21) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 23:04:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 41) to (Rev. 42)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 23:04:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 41) to (Rev. 42)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 23:04:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 41) to (Rev. 42)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 23:04:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0 (Rev. 21)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 20:47:08 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 40) to (Rev. 41)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 20:47:08 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 40) to (Rev. 41)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 20:47:08 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 40) to (Rev. 41)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 20:46:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 38) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 20:46:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 38) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 20:46:51 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 38) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 19:57:31 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 19:57:31 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 19:57:31 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 19:55:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 19:55:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 19:55:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 15:32:59 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 34) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 15:32:59 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 34) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 14 15:32:59 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 34) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Apr 12 16:17:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Apr 12 16:17:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Apr 12 16:17:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Apr 12 15:59:27 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Apr 12 15:59:27 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Apr 12 15:59:27 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 22:32:14 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 22:32:14 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 22:32:14 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 22:31:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 22:31:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 22:31:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 10:34:38 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 10:34:38 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Apr 11 10:34:38 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Apr 10 09:53:52 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Apr 10 09:53:52 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Apr 10 09:53:52 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  9 10:08:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  9 10:08:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  9 10:08:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 23:27:26 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 23:27:26 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 23:27:26 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 21:50:38 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 21:50:38 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 21:50:38 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 17:15:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 17:15:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 17:15:25 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 15:18:40 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 15:18:40 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 15:18:40 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:53:45 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 19) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:53:45 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 19) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:53:45 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 19) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:51:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0 (Rev. 19)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:51:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0 (Rev. 19)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:51:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0 (Rev. 19)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:10:54 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:10:54 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  8 10:10:54 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr  7 21:34:12 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr  7 21:34:12 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr  7 21:34:12 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 23:05:03 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 23:05:03 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 23:05:03 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 18:49:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 18:49:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 18:49:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 16:38:55 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 16:38:55 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 16:38:55 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 10:56:30 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 10:56:30 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 10:56:30 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr  6 09:53:39 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 17:06:03 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 17:06:03 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 17:06:03 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 17:06:03 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 16:21:22 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 16:21:22 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 16:21:22 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 11:22:53 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 10:18:21 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 10:18:21 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 10:18:21 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 09:18:50 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 09:18:50 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  2 09:18:50 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 19:37:27 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 17:34:36 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 17:34:36 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 17:34:36 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 16:40:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 16:40:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 16:40:02 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 15:55:19 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 15:55:19 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 15:55:19 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 10:46:07 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 10:46:07 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr  1 10:46:07 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Mar 31 10:23:36 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Mar 31 09:36:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Mar 31 09:36:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Mar 31 09:36:20 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Mar 30 21:39:29 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 29 11:07:49 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0 (Rev. 15)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:19:33 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:19:33 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:19:33 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:19:33 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:12:13 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_1_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:12:13 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_1 (xilinx.com:user:TriggerCh:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:12:13 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_TriggerCh_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_TriggerCh_0_0 (xilinx.com:user:TriggerCh:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 22:12:13 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 14:53:00 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 14:45:23 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 11) to (Rev. 12)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Adc3444_TCP_Adc3444_top_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'work_status'
+
+-Upgrade has added port 'work_status1'
+
+-Upgrade has added port 'work_status2'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 14:21:01 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 10) to (Rev. 11)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Adc3444_TCP_Adc3444_top_0_1'.
+
+
+-Upgrade has added interface 'AdcSampClk' (xilinx.com:signal:clock:1.0)
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Mar 22 10:56:24 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Mar 21 09:29:23 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Mar 21 09:18:23 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Adc3444_TCP_Adc3444_top_0_1'. These changes may impact your design.
+
+
+-Upgrade has removed port 'SysRst'
+
+-Upgrade has added port 'SysRstn'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Mar 19 16:18:17 2022
+| Host         : DESKTOP-N01S6N9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Adc3444_TCP_Adc3444_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Adc3444_TCP_Adc3444_top_0_1 (xilinx.com:user:Adc3444_top:1.0) from (Rev. 5) to (Rev. 6)
+

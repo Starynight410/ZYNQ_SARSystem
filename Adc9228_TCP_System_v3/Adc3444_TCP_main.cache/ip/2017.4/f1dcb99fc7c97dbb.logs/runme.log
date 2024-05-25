@@ -1,0 +1,728 @@
+
+*** Running vivado
+    with args -log Adc3444_TCP_Adc9228_top_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adc3444_TCP_Adc9228_top_0_0.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Adc3444_TCP_Adc9228_top_0_0.tcl -notrace
+Command: synth_design -top Adc3444_TCP_Adc9228_top_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17488 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 430.281 ; gain = 102.434
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Adc3444_TCP_Adc9228_top_0_0' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/synth/Adc3444_TCP_Adc9228_top_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'Adc9228_top' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/Adc9228_top.v:23]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'sys_ctrl' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/sys_ctrl.v:1]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_2' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.v:71]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_2_clk_wiz' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2_clk_wiz.v:69]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:25757]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 25.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 25.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 100.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:25757]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_2_clk_wiz' (4#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2_clk_wiz.v:69]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_2' (5#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.v:71]
+INFO: [Synth 8-256] done synthesizing module 'sys_ctrl' (6#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/sys_ctrl.v:1]
+INFO: [Synth 8-638] synthesizing module 'adc_1' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/adc_1.v:1]
+	Parameter Tap_DCO bound to: 5'b11110 
+	Parameter Tap_CH0 bound to: 5'b10101 
+	Parameter Tap_CH1 bound to: 5'b10000 
+	Parameter Tap_CH2 bound to: 5'b10110 
+	Parameter Tap_CH3 bound to: 5'b10110 
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19483]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: TRUE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (7#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19483]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_3' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v:70]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_3_clk_wiz' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v:68]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV__parameterized0' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:25757]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 64.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 100.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 64.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV__parameterized0' (7#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:25757]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_3_clk_wiz' (8#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3_clk_wiz.v:68]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_3' (9#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.v:70]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/adc_1.v:86]
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21504]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (10#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21504]
+INFO: [Synth 8-638] synthesizing module 'IDELAYE2' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VAR_LOAD - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: CLOCK - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'IDELAYE2' (11#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (12#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'OBUFDS' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:27284]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-256] done synthesizing module 'OBUFDS' (13#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:27284]
+INFO: [Synth 8-638] synthesizing module 'io' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/io.v:23]
+INFO: [Synth 8-638] synthesizing module 'IDELAYE2__parameterized0' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VAR_LOAD - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'IDELAYE2__parameterized0' (13#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+INFO: [Synth 8-638] synthesizing module 'IDDR' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21382]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE_PIPELINED - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IDDR' (14#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21382]
+INFO: [Synth 8-256] done synthesizing module 'io' (15#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/io.v:23]
+INFO: [Synth 8-638] synthesizing module 'pulse_generator' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/pulse_generator.v:25]
+	Parameter T_1ms bound to: 24'b000000110000110101000000 
+	Parameter T_2ms bound to: 24'b000001100001101010000000 
+	Parameter T_3ms bound to: 24'b000010010010011111000000 
+INFO: [Synth 8-256] done synthesizing module 'pulse_generator' (16#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/pulse_generator.v:25]
+INFO: [Synth 8-256] done synthesizing module 'adc_1' (17#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/adc_1.v:1]
+INFO: [Synth 8-638] synthesizing module 'AD_control' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:23]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter Wait_TRACK_down bound to: 4'b0001 
+	Parameter Wait_PM_up bound to: 4'b0010 
+	Parameter Start_Sample bound to: 4'b0011 
+	Parameter Check_process bound to: 4'b0100 
+INFO: [Synth 8-155] case statement is not full and has no default [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:260]
+WARNING: [Synth 8-6014] Unused sequential element PMcnt_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:102]
+WARNING: [Synth 8-6014] Unused sequential element PM_int_down_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:114]
+WARNING: [Synth 8-6014] Unused sequential element PM_extra_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:126]
+WARNING: [Synth 8-6014] Unused sequential element TTL_cnt_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:153]
+INFO: [Synth 8-256] done synthesizing module 'AD_control' (18#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:23]
+INFO: [Synth 8-226] default block is never used [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/Adc9228_top.v:426]
+INFO: [Synth 8-226] default block is never used [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/Adc9228_top.v:567]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/Adc9228_top.v:418]
+INFO: [Synth 8-256] done synthesizing module 'Adc9228_top' (19#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/Adc9228_top.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Adc3444_TCP_Adc9228_top_0_0' (20#1) [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/synth/Adc3444_TCP_Adc9228_top_0_0.v:57]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[15]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[14]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[13]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[12]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[11]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[10]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[9]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[8]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[7]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[6]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[5]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[4]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[3]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[2]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[1]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[0]
+WARNING: [Synth 8-3331] design io has unconnected port rst_n
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 482.832 ; gain = 154.984
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 482.832 ; gain = 154.984
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.xdc] for cell 'inst/adc_1_ins/clk_wiz_3_inst/inst'
+Finished Parsing XDC File [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.xdc] for cell 'inst/adc_1_ins/clk_wiz_3_inst/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3/clk_wiz_3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Adc3444_TCP_Adc9228_top_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Adc3444_TCP_Adc9228_top_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xdc] for cell 'inst/sys_ctrl_ins/clk_wiz_2_inst/inst'
+Finished Parsing XDC File [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xdc] for cell 'inst/sys_ctrl_ins/clk_wiz_2_inst/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Adc3444_TCP_Adc9228_top_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Adc3444_TCP_Adc9228_top_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.runs/Adc3444_TCP_Adc9228_top_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.runs/Adc3444_TCP_Adc9228_top_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.runs/Adc3444_TCP_Adc9228_top_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Adc3444_TCP_Adc9228_top_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Adc3444_TCP_Adc9228_top_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 848.355 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 848.355 ; gain = 520.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 848.355 ; gain = 520.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/adc_1_ins/clk_wiz_3_inst/inst. (constraint file  E:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.runs/Adc3444_TCP_Adc9228_top_0_0_synth_1/dont_touch.xdc, line 14).
+Applied set_property DONT_TOUCH = true for inst/sys_ctrl_ins/clk_wiz_2_inst/inst. (constraint file  E:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.runs/Adc3444_TCP_Adc9228_top_0_0_synth_1/dont_touch.xdc, line 19).
+Applied set_property DONT_TOUCH = true for inst/adc_1_ins/clk_wiz_3_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/sys_ctrl_ins/clk_wiz_2_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 848.355 ; gain = 520.508
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element cntDelay_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/pulse_generator.v:37]
+INFO: [Synth 8-4471] merging register 'Data_Ch1_valid_reg' into 'Data_Ch0_valid_reg' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:253]
+INFO: [Synth 8-4471] merging register 'Data_Ch2_valid_reg' into 'Data_Ch0_valid_reg' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:255]
+INFO: [Synth 8-4471] merging register 'Data_Ch3_reg[15:0]' into 'Data_Ch2_reg[15:0]' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:256]
+INFO: [Synth 8-4471] merging register 'Data_Ch3_valid_reg' into 'Data_Ch0_valid_reg' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:257]
+INFO: [Synth 8-4471] merging register 'Data_Ch1_valid_D_reg' into 'Data_Ch0_valid_D_reg' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:320]
+INFO: [Synth 8-4471] merging register 'Data_Ch2_valid_D_reg' into 'Data_Ch0_valid_D_reg' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:321]
+INFO: [Synth 8-4471] merging register 'DataToTriCh3_reg_reg[15:0]' into 'DataToTriCh2_reg_reg[15:0]' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:312]
+INFO: [Synth 8-4471] merging register 'Data_Ch3_valid_D_reg' into 'Data_Ch0_valid_D_reg' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:322]
+INFO: [Synth 8-4471] merging register 'DataToTriCh3_reg_D_reg[15:0]' into 'DataToTriCh2_reg_D_reg[15:0]' [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:317]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch1_valid_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:253]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch2_valid_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:255]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch3_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:256]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch3_valid_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:257]
+WARNING: [Synth 8-6014] Unused sequential element DataToTriCh3_reg_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:312]
+WARNING: [Synth 8-6014] Unused sequential element DataToTriCh3_reg_D_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:317]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch1_valid_D_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:320]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch2_valid_D_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:321]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch3_valid_D_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:322]
+INFO: [Synth 8-802] inferred FSM for state register 'AD_state_reg' in module 'AD_control'
+INFO: [Synth 8-5544] ROM "Data_Ch0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element delay_cnt_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:236]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                             0000
+              Wait_PM_up |                               01 |                             0010
+            Start_Sample |                               10 |                             0011
+           Check_process |                               11 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'AD_state_reg' using encoding 'sequential' in module 'AD_control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 848.355 ; gain = 520.508
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	               16 Bit    Registers := 9     
+	               12 Bit    Registers := 8     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   4 Input     16 Bit        Muxes := 3     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sys_ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module io 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+Module AD_control 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 9     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 3     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+Module Adc9228_top 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element inst/adc_1_ins/ch3_idelay/dout_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/io.v:94]
+WARNING: [Synth 8-6014] Unused sequential element inst/adc_1_ins/ch3_idelay/chxDout_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/io.v:98]
+WARNING: [Synth 8-6014] Unused sequential element inst/adc_1_ins/load_pulse/cntDelay_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/pulse_generator.v:37]
+WARNING: [Synth 8-6014] Unused sequential element inst/AD_control_inst/delay_cnt_reg was removed.  [e:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ipshared/1a8e/src/AD_control.v:236]
+INFO: [Synth 8-3917] design Adc3444_TCP_Adc9228_top_0_0 has port led driven by constant 1
+WARNING: [Synth 8-3331] design Adc3444_TCP_Adc9228_top_0_0 has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design Adc3444_TCP_Adc9228_top_0_0 has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design Adc3444_TCP_Adc9228_top_0_0 has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design Adc3444_TCP_Adc9228_top_0_0 has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design Adc3444_TCP_Adc9228_top_0_0 has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design Adc3444_TCP_Adc9228_top_0_0 has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch2_reg[12]' (FDCE) to 'inst/AD_control_inst/Data_Ch2_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch2_reg[13]' (FDCE) to 'inst/AD_control_inst/Data_Ch2_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch2_reg[14]' (FDCE) to 'inst/AD_control_inst/Data_Ch2_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch2_reg[15]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch1_reg[12]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch1_reg[13]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch1_reg[14]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch1_reg[15]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch0_reg[12]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch0_reg[13]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/Data_Ch0_reg[14]' (FDCE) to 'inst/AD_control_inst/Data_Ch0_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/AD_control_inst/Data_Ch0_reg[15] )
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_reg[12]' (FDC) to 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_reg[13]' (FDC) to 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_reg[14]' (FDC) to 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_reg[15]' (FDC) to 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_reg[12]' (FDC) to 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_reg[13]' (FDC) to 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_reg[14]' (FDC) to 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_reg[15]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh0_reg_reg[12]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh0_reg_reg[13]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh0_reg_reg[14]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_rresp_reg[0]' (FDRE) to 'inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/axi_bresp_reg[0]' (FDRE) to 'inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_D_reg[12]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_D_reg[13]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_D_reg[14]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh2_reg_D_reg[15]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_D_reg[12]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_D_reg[13]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_D_reg[14]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh1_reg_D_reg[15]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[12]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[13]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[14]' (FDC) to 'inst/AD_control_inst/DataToTriCh0_reg_D_reg[15]'
+INFO: [Synth 8-3332] Sequential element (inst/AD_control_inst/TRACK_D1_reg) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/AD_control_inst/TRACK_D2_reg) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_bresp_reg[1]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[31]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[30]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[29]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[28]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[27]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[26]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[25]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[24]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[23]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[22]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[21]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[20]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[19]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[18]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[17]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[16]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[15]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[14]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[13]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[12]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[11]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[10]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[9]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[8]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[7]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[6]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[5]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[4]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[1]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_araddr_reg[0]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[31]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[30]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[29]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[28]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[27]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[26]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[25]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[24]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[23]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[22]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[21]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[20]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[19]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[18]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[17]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[16]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[15]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[14]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[13]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[12]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[11]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[10]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[9]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[8]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[7]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[6]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[5]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[4]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[1]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_awaddr_reg[0]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_rresp_reg[1]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/AD_control_inst/Data_Ch0_reg[15]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/AD_control_inst/DataToTriCh0_reg_reg[15]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/AD_control_inst/DataToTriCh0_reg_D_reg[15]) is unused and will be removed from module Adc3444_TCP_Adc9228_top_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 848.355 ; gain = 520.508
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'inst/adc_1_ins/clk_wiz_3_inst/inst/clk_in1' to pin 'inst/adc_1_ins/IBUFDS_fclk/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 848.355 ; gain = 520.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 856.250 ; gain = 528.402
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     6|
+|2     |CARRY4     |    14|
+|3     |IDDR       |     4|
+|4     |IDELAYCTRL |     1|
+|5     |IDELAYE2   |     4|
+|6     |IDELAYE2_1 |     1|
+|7     |LUT1       |     6|
+|8     |LUT2       |    73|
+|9     |LUT3       |     1|
+|10    |LUT4       |    23|
+|11    |LUT5       |     5|
+|12    |LUT6       |    43|
+|13    |MMCME2_ADV |     2|
+|14    |ODDR       |     1|
+|15    |FDCE       |   185|
+|16    |FDRE       |   234|
+|17    |FDSE       |     1|
+|18    |IBUF       |     2|
+|19    |IBUFDS     |     6|
+|20    |OBUFDS     |     1|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------------+------------------+------+
+|      |Instance             |Module            |Cells |
++------+---------------------+------------------+------+
+|1     |top                  |                  |   613|
+|2     |  inst               |Adc9228_top       |   613|
+|3     |    AD_control_inst  |AD_control        |   263|
+|4     |    adc_1_ins        |adc_1             |   140|
+|5     |      clk_wiz_3_inst |clk_wiz_3         |     4|
+|6     |        inst         |clk_wiz_3_clk_wiz |     4|
+|7     |      ch0_idelay     |io                |    27|
+|8     |      ch1_idelay     |io_0              |    27|
+|9     |      ch2_idelay     |io_1              |    27|
+|10    |      ch3_idelay     |io_2              |     3|
+|11    |      load_pulse     |pulse_generator   |    45|
+|12    |    sys_ctrl_ins     |sys_ctrl          |    13|
+|13    |      clk_wiz_2_inst |clk_wiz_2         |     5|
+|14    |        inst         |clk_wiz_2_clk_wiz |     5|
++------+---------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 858.562 ; gain = 165.191
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 858.562 ; gain = 530.715
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 35 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-35] Removing redundant IBUF, inst/adc_1_ins/clk_wiz_3_inst/inst/clkin1_ibufg, from the path connected to top-level port: FCO_p 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+188 Infos, 51 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 861.035 ; gain = 544.715
+INFO: [Common 17-1381] The checkpoint 'E:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.runs/Adc3444_TCP_Adc9228_top_0_0_synth_1/Adc3444_TCP_Adc9228_top_0_0.dcp' has been generated.

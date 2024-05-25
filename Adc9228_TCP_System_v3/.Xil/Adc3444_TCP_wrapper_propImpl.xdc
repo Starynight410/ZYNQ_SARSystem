@@ -1,0 +1,9 @@
+set_property SRC_FILE_INFO {cfile:d:/HangZhouFile_byx/ZynqProject_v17/Adc9228_TCP_System/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc rfile:../Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc id:1 order:EARLY scoped_inst:Adc3444_TCP_i/Adc9228_top_0/inst/sys_ctrl_ins/my_clk_wiz_0_sys_ctrl/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:d:/HangZhouFile_byx/ZynqProject_v17/Adc9228_TCP_System/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc rfile:../Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_Adc9228_top_0_0/Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc id:2 order:EARLY scoped_inst:Adc3444_TCP_i/Adc9228_top_0/inst/adc_1_ins/my_clk_wiz_1/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:d:/HangZhouFile_byx/ZynqProject_v17/Adc9228_TCP_System/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_processing_system7_0_1/Adc3444_TCP_processing_system7_0_1.xdc rfile:../Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ip/Adc3444_TCP_processing_system7_0_1/Adc3444_TCP_processing_system7_0_1.xdc id:3 order:EARLY scoped_inst:Adc3444_TCP_i/processing_system7_0/inst} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.25
+set_property src_info {type:SCOPED_XDC file:2 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 1.0
+set_property src_info {type:SCOPED_XDC file:3 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter clk_fpga_0 0.6

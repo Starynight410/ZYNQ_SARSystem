@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_3" --include "../../../../Adc9228_top_axi.srcs/sources_1/ip/clk_wiz_2" \
+"../../../../Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v" \
+"../../../../Adc9228_top_axi.srcs/sim_1/new/tb_generate_vaild.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

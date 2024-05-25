@@ -1,0 +1,304 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Sep  9 15:28:59 2023
+# Process ID: 11716
+# Current directory: E:/ZynqProject_v17/Adc9228_TCP_System_v3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12336 E:\ZynqProject_v17\Adc9228_TCP_System_v3\Adc3444_TCP_main.xpr
+# Log file: E:/ZynqProject_v17/Adc9228_TCP_System_v3/vivado.log
+# Journal file: E:/ZynqProject_v17/Adc9228_TCP_System_v3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/TriggerCh'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ZynqProject_v17/Adc9228_top_axi_v2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado2017.4/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:32 . Memory (MB): peak = 1205.141 ; gain = 467.227
+update_compile_order -fileset sources_1
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_Adc9228_top_0
+Adding cell -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_0
+Adding cell -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_1
+Adding cell -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_2
+Adding cell -- xilinx.com:user:TriggerCh:1.0 - TriggerCh_3
+Adding cell -- xilinx.com:user:Adc9228_top:1.0 - Adc9228_top_0
+Adding cell -- xilinx.com:ip:system_ila:1.1 - system_Trig_Ch0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_1
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_2
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_3
+Adding cell -- xilinx.com:ip:system_ila:1.1 - system_ila_axi_periph
+Adding cell -- xilinx.com:ip:system_ila:1.1 - system_Trig_Ch1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Adc9228_top_0/clk_100m_o(clk) and /TriggerCh_0/iTrigClk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Adc9228_top_0/clk_100m_o(clk) and /TriggerCh_1/iTrigClk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Adc9228_top_0/clk_100m_o(clk) and /TriggerCh_2/iTrigClk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Adc9228_top_0/clk_100m_o(clk) and /TriggerCh_3/iTrigClk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_RESET0_N(rst) and /TriggerCh_0/iTrigRstn(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_RESET0_N(rst) and /TriggerCh_1/iTrigRstn(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_RESET0_N(rst) and /TriggerCh_2/iTrigRstn(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_RESET0_N(rst) and /TriggerCh_3/iTrigRstn(undef)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <Adc3444_TCP> from BD file <E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1316.176 ; gain = 68.164
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 1350.270 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/Adc9228_top_0/inst/ila_generate_vaild_0_ins' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_3/inst/ila_1_inst' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_1/inst/ila_1_inst' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_0/inst/inst_TriggerDMA/ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/Adc9228_top_0/inst/ila_fifo_0_ins' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_0/inst/ila_1_inst' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/system_ila_axi_periph/inst/ila_lib' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_1/inst/inst_TriggerDMA/ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_2/inst/ila_1_inst' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'Adc3444_TCP_i/TriggerCh_3/inst/inst_TriggerDMA/ila_0' from probes file, since it cannot be found on the programmed device.
+launch_sdk -workspace E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk -hwspec E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk/Adc3444_TCP_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk -hwspec E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk/Adc3444_TCP_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+set_property PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/impl_2/Adc3444_TCP_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1937.816 ; gain = 0.617
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 13 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 2138.730 ; gain = 200.914
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/Adc9228_top_0/inst/ila_fifo_0_ins"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/Adc9228_top_0/inst/ila_generate_vaild_0_ins"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_0/inst/ila_1_inst"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_0/inst/inst_TriggerDMA/ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_4.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_5 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_1/inst/ila_1_inst"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_5.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_6 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_1/inst/inst_TriggerDMA/ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_6.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_7 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_2/inst/ila_1_inst"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_7.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_8 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_2/inst/inst_TriggerDMA/ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_8.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_9 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_3/inst/ila_1_inst"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_9.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_10 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/TriggerCh_3/inst/inst_TriggerDMA/ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_10.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_11 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+Processed interface TriggerCh_0_m_axi_ila11_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_11.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_12 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_13 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_ila_axi_periph/inst/ila_lib"}]]
+Processed interface ps7_0_axi_periph_M01_AXI_ila13_slot0
+Processed interface ps7_0_axi_periph_M00_AXI_ila13_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_13.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 15:38:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 15:38:44
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:23:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:24:07
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:29:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:29:37
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:29:42
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:29:42
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:29:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:29:44
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq64'hXXXX_XXXX_XXXX_XXXX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_wdata -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:30:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:30:45
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:31:48
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:42:39
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_11' trigger was armed at 2023-Sep-09 16:42:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]\
+  [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_11' triggered at 2023-Sep-09 16:43:45
+Processed interface TriggerCh_0_m_axi_ila11_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_11.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:43:45
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+open_bd_design {E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/Adc3444_TCP.bd}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:47:24
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_11' trigger was armed at 2023-Sep-09 16:47:28
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_12' trigger was stopped by user at 2023-Sep-09 16:47:55
+WARNING: [Labtools 27-157] hw_ila [hw_ila_12] stopped. No data to upload.
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_11' trigger was stopped by user at 2023-Sep-09 16:48:01
+WARNING: [Labtools 27-157] hw_ila [hw_ila_11] stopped. No data to upload.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_11' trigger was armed at 2023-Sep-09 16:48:55
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:49:13
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_11' triggered at 2023-Sep-09 16:49:47
+Processed interface TriggerCh_0_m_axi_ila11_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_11.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:49:47
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq32'h0023_92C8 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awaddr -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:56:23
+set_property TRIGGER_COMPARE_VALUE eq32'h0023_8000 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch1/inst/net_slot_0_axi_awaddr -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_12' trigger was stopped by user at 2023-Sep-09 16:57:04
+WARNING: [Labtools 27-157] hw_ila [hw_ila_12] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:57:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_12' triggered at 2023-Sep-09 16:57:04
+Processed interface smartconnect_0_M00_AXI_ila12_slot0
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/backup/hw_ila_data_12.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_12' trigger was armed at 2023-Sep-09 16:58:34
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_wvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq32'h0023_8000 [get_hw_probes Adc3444_TCP_i/system_Trig_Ch0/inst/net_slot_0_axi_awaddr -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_11' trigger was armed at 2023-Sep-09 16:59:06
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch0/inst/ila_lib"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_11' trigger was stopped by user at 2023-Sep-09 17:11:13
+WARNING: [Labtools 27-157] hw_ila [hw_ila_11] stopped. No data to upload.
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"Adc3444_TCP_i/system_Trig_Ch1/inst/ila_lib"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_12' trigger was stopped by user at 2023-Sep-09 17:11:15
+WARNING: [Labtools 27-157] hw_ila [hw_ila_12] stopped. No data to upload.
+launch_sdk -workspace E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk -hwspec E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk/Adc3444_TCP_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk -hwspec E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.sdk/Adc3444_TCP_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+save_bd_design
+Wrote  : <E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.srcs/sources_1/bd/Adc3444_TCP/ui/bd_6923c943.ui> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep  9 17:56:10 2023...

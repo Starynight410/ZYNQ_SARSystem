@@ -1,0 +1,11 @@
+parameter_BW:2000MHz
+parameter_T:120¦Ìs
+parameter_PRT:400¦Ìs
+parameter_point:1024
+parameter_Ö¡Êý:20
+parameter_Ö¡¼ä¸ô:220ms
+parameter_Chirps:32
+parameter_ÑÓ³Ù:150.0¦Ìs
+parameter_jump:518
+parameter_Sample:10.0
+error:[]

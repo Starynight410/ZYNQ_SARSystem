@@ -1,0 +1,8 @@
+17:27:23 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+17:27:23 Build Finished (took 402ms)
+

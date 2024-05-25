@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Adc3444_TCP_Adc9228_top_0_0_synth_1" LaunchDir="E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/Adc3444_TCP_Adc9228_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_2" LaunchDir="E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/synth_2" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Adc3444_TCP_Adc9228_top_0_0_synth_1"/>
+	</Run>
+</Runs>
+

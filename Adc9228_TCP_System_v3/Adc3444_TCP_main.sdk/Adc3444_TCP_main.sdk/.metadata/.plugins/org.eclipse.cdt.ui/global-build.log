@@ -1,0 +1,2268 @@
+21:27:27 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+../src/echo.c: In function 'recv_callback':
+../src/echo.c:70:3: error: 'data_buffer' undeclared (first use in this function)
+   data_buffer[i] = i;
+   ^~~~~~~~~~~
+../src/echo.c:70:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/echo.c:77:25: error: 'data_bufferPtr' undeclared (first use in this function)
+   err = tcp_write(tpcb, data_bufferPtr, 1024, 1);
+                         ^~~~~~~~~~~~~~
+make: *** [src/echo.o] 错误 1
+21:27:32 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+../src/echo.c: In function 'recv_callback':
+../src/echo.c:68:3: error: 'data_buffer' undeclared (first use in this function)
+   data_buffer[i] = i;
+   ^~~~~~~~~~~
+../src/echo.c:68:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/echo.c:75:25: error: 'data_bufferPtr' undeclared (first use in this function)
+   err = tcp_write(tpcb, data_bufferPtr, 1024, 1);
+                         ^~~~~~~~~~~~~~
+make: *** [src/echo.o] 错误 1
+21:28:24 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105324	   3844	2218272	2327440	 238390	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:32:31 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105296	   3844	2218272	2327412	 238374	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:36:21 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105568	   3844	2218272	2327684	 238484	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:38:10 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105324	   3844	2218272	2327440	 238390	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:43:42 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:214:4: error: 'err' undeclared (first use in this function)
+    err = tcp_write(pcb, data_bufferPtr, 1024, 1);
+    ^~~
+../src/main.c:214:4: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] 错误 1
+21:44:22 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105660	   3844	2218272	2327776	 2384e0	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:47:44 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105632	   3844	2218272	2327748	 2384c4	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:51:15 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105632	   3844	2218272	2327748	 2384c4	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:52:16 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:214:4: error: 'err' undeclared (first use in this function)
+    err = tcp_write(pcb, data_bufferPtr, 1024, 1);
+    ^~~
+../src/main.c:214:4: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] 错误 1
+21:52:35 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105632	   3844	2218272	2327748	 2384c4	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:57:44 **** Auto Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:140:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:144:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'Eth_Send':
+../src/main.c:473:20: error: expected expression before ',' token
+    err = tcp_write(, p, wlen, 1); // 将要发送的数据放入发送队列
+                    ^
+At top level:
+../src/main.c:173:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:122:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+make: *** [src/main.o] 错误 1
+20:22:44 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105632	   3844	2218272	2327748	 2384c4	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+20:34:25 **** Auto Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:140:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:144:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:173:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:122:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172568	   4700	92313888	92491156	5834d94	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+20:35:33 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105632	   3844	2218272	2327748	 2384c4	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:24:02 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+../src/echo.c: In function 'recv_callback':
+../src/echo.c:93:2: error: 'snd_buf' undeclared (first use in this function)
+  snd_buf = tcp_sndbuf(tpcb);
+  ^~~~~~~
+../src/echo.c:93:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/echo.o] 错误 1
+21:24:54 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105556	   3844	2218272	2327672	 238478	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+21:57:09 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:309:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:142:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:146:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:378:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:175:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:121:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/main.o:(.rodata+0x0): multiple definition of `TCP_SUCCESS'
+./src/Adc9228_func.o:(.rodata+0x0): first defined here
+./src/main.o: In function `Xil_In32':
+E:\ZynqProject_v17\Adc9228_TCP_System_v3\Adc3444_TCP_main.sdk\Adc9228_LWIP\Debug/../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include/xil_io.h:152: multiple definition of `TCP_FAILED'
+./src/Adc9228_func.o:E:\ZynqProject_v17\Adc9228_TCP_System_v3\Adc3444_TCP_main.sdk\Adc9228_LWIP\Debug/../src/Adc9228_func.c:49: first defined here
+./src/main.o: In function `Xil_In32':
+E:\ZynqProject_v17\Adc9228_TCP_System_v3\Adc3444_TCP_main.sdk\Adc9228_LWIP\Debug/../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include/xil_io.h:152: multiple definition of `TCP_UNKNOWN'
+./src/Adc9228_func.o:E:\ZynqProject_v17\Adc9228_TCP_System_v3\Adc3444_TCP_main.sdk\Adc9228_LWIP\Debug/../src/Adc9228_func.c:49: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [Adc9228_LWIP.elf] 错误 1
+21:58:35 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:318:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:142:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:146:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:379:9: error: 'TCP_CAM_START' undeclared (first use in this function)
+  code = TCP_CAM_START;
+         ^~~~~~~~~~~~~
+../src/main.c:379:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:415:9: error: 'TCP_CAM_DATA' undeclared (first use in this function)
+  code = TCP_CAM_DATA; //TCP发送开始
+         ^~~~~~~~~~~~
+../src/main.c:378:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:175:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:121:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+make: *** [src/main.o] 错误 1
+21:59:03 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:383:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171600	   4708	92313888	92490196	58349d4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+22:21:19 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:318:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:146:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:150:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:381:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:179:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:125:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171600	   4708	92313888	92490196	58349d4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+22:24:56 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:318:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:146:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:150:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:381:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:179:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:125:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171600	   4708	92313888	92490196	58349d4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+22:26:36 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:146:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:150:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:310:30: error: stray '\243' in program
+  data_bufferPtr = data_buffer；
+                              ^
+../src/main.c:310:31: error: stray '\273' in program
+  data_bufferPtr = data_buffer；
+                               ^
+../src/main.c:313:2: error: expected ';' before 'while'
+  while (1) {
+  ^~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:382:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:529:5: warning: 'IntcInitFunction' defined but not used [-Wunused-function]
+ int IntcInitFunction(u16 DeviceId){
+     ^~~~~~~~~~~~~~~~
+../src/main.c:179:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:125:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+make: *** [src/main.o] 错误 1
+22:26:56 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:146:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:150:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:382:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:179:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:125:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171600	   4708	92313888	92490196	58349d4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+22:30:05 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:50:40 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:334:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:146:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:150:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:350:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(3);
+    ^~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:385:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:179:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:125:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171656	   4708	92313888	92490252	5834a0c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+22:52:00 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:334:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171656	   4708	92313888	92490252	5834a0c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+22:54:22 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:334:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171656	   4708	92313888	92490252	5834a0c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:13:50 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:334:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:146:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:150:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:350:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(3);
+    ^~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:384:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:179:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:125:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171656	   4708	92313888	92490252	5834a0c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:22:39 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(2);
+    ^~~~~
+../src/main.c: In function 'process_TriggerIntr':
+../src/main.c:389:6: warning: unused variable 'send_cnt' [-Wunused-variable]
+  int send_cnt = 0;
+      ^~~~~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171848	   4708	92313888	92490444	5834acc	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:27:01 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c:318:1: warning: 'tcp_sent_callback' defined but not used [-Wunused-function]
+ tcp_sent_callback(void *arg, struct tcp_pcb *tpcb, u16_t len)
+ ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171784	   4708	92313888	92490380	5834a8c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:28:38 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171784	   4708	92313888	92490380	5834a8c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:33:51 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171688	   4708	92313888	92490284	5834a2c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:35:09 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(10);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171688	   4708	92313888	92490284	5834a2c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:37:03 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171632	   4708	92313888	92490228	58349f4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:39:29 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171632	   4708	92313888	92490228	58349f4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:40:32 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171688	   4708	92313888	92490284	5834a2c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:44:29 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'data_recv_callback':
+../src/Adc9228_func.c:218:58: error: 'pkg_size' undeclared (first use in this function)
+  xil_printf("finish.  snd_buf:%d  pkg_size:%d\n",snd_buf,pkg_size);
+                                                          ^~~~~~~~
+../src/Adc9228_func.c:218:58: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Adc9228_func.o] 错误 1
+10:44:54 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172080	   4708	92313888	92490676	5834bb4	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:47:24 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'data_recv_callback':
+../src/Adc9228_func.c:224:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171456	   4708	92313888	92490052	5834944	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:55:37 **** Build of project echo1_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling lwip src and adapter files"
+In file included from ../../../include/lwip/ip.h:39:0,
+                 from lwip-1.4.1/src/core/ipv4/ip.c:42:
+lwip-1.4.1/src/core/ipv4/ip.c: In function 'ip_input':
+../../../include/lwip/ip_addr.h:200:39: warning: the comparison will always evaluate as 'false' for the address of 'current_iphdr_src' will never be NULL [-Waddress]
+ #define ip_addr_isany(addr1) ((addr1) == NULL || (addr1)->addr == IPADDR_ANY)
+                                       ^
+lwip-1.4.1/src/core/ipv4/ip.c:473:24: note: in expansion of macro 'ip_addr_isany'
+   if (check_ip_src && !ip_addr_isany(&current_iphdr_src))
+                        ^~~~~~~~~~~~~
+In file included from ../../../include/lwip/netif.h:41:0,
+                 from ../../../include/lwip/udp.h:40,
+                 from lwip-1.4.1/src/core/dhcp.c:75:
+lwip-1.4.1/src/core/dhcp.c: In function 'dhcp_bind':
+../../../include/lwip/ip_addr.h:200:39: warning: the comparison will always evaluate as 'false' for the address of 'gw_addr' will never be NULL [-Waddress]
+ #define ip_addr_isany(addr1) ((addr1) == NULL || (addr1)->addr == IPADDR_ANY)
+                                       ^
+lwip-1.4.1/src/core/dhcp.c:987:7: note: in expansion of macro 'ip_addr_isany'
+   if (ip_addr_isany(&gw_addr)) {
+       ^~~~~~~~~~~~~
+In file included from ../../../include/xemacps.h:348:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+contrib/ports/xilinx/netif/xemacpsif_dma.c: In function 'init_dma':
+../../../include/xemacps_bd.h:163:62: warning: 'bdrxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     (*(u32 *)((UINTPTR)(void*)(BaseAddress) + (u32)(Offset)) = (u32)(Data))
+                                                              ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:558:14: note: 'bdrxterminate' was declared here
+  XEmacPs_Bd *bdrxterminate;
+              ^~~~~~~~~~~~~
+In file included from ../../../include/xemacps.h:348:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+../../../include/xemacps_bd.h:163:15: warning: 'bdtxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     (*(u32 *)((UINTPTR)(void*)(BaseAddress) + (u32)(Offset)) = (u32)(Data))
+               ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:557:14: note: 'bdtxterminate' was declared here
+  XEmacPs_Bd *bdtxterminate;
+              ^~~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+10:56:21 **** Build of configuration Debug for project echo1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../echo1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: echo1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../echo1_bsp/ps7_cortexa9_0/lib -o "echo1.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: echo1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size echo1.elf  |tee "echo1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105260	   3844	2218272	2327376	 238350	echo1.elf
+'Finished building: echo1.elf.size'
+' '
+10:57:22 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 171664	   4708	92313888	92490260	5834a14	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+10:59:53 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:01:20 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:03:29 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:11:10 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:13:46 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:14:48 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:18:05 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:20:32 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+11:21:11 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:24:40 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:47:11 **** Auto Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172224	   4708	92313888	92490820	5834c44	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+16:27:46 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:73:5: error: 'packet_trans_done' undeclared (first use in this function)
+  if(packet_trans_done)
+     ^~~~~~~~~~~~~~~~~
+../src/Adc9228_func.c:73:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+make: *** [src/Adc9228_func.o] 错误 1
+16:27:47 **** Build of project LWIP_Echo_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling lwip src and adapter files"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+16:28:21 **** Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:75:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LWIP_Echo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: LWIP_Echo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_Echo_bsp/ps7_cortexa9_0/lib -o "LWIP_Echo.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: LWIP_Echo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LWIP_Echo.elf  |tee "LWIP_Echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105556	   3844	2218272	2327672	 238478	LWIP_Echo.elf
+'Finished building: LWIP_Echo.elf.size'
+' '
+16:29:03 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'send_StartTCPTransfer':
+../src/main.c:486:11: warning: variable 'StartTCPTransfer_ptr' set but not used [-Wunused-but-set-variable]
+  uint8_t* StartTCPTransfer_ptr;
+           ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:485:8: warning: unused variable 'err' [-Wunused-variable]
+  err_t err;
+        ^~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 172496	   4708	92313888	92491092	5834d54	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+16:29:06 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:29:47 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:55:19 **** Auto Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/timer_intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_intr.d" -MT"src/timer_intr.o" -o "src/timer_intr.o" "../src/timer_intr.c"
+'Finished building: ../src/timer_intr.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 173008	   4708	92313888	92491604	5834f54	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+16:57:33 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+16:57:34 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:02:23 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/Adc9228_func.c: In function 'tcp_connected_callback':
+../src/Adc9228_func.c:482:17: error: 'tcp_sent_callback' undeclared (first use in this function)
+  tcp_sent(tpcb, tcp_sent_callback);
+                 ^~~~~~~~~~~~~~~~~
+../src/Adc9228_func.c:482:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Adc9228_func.o] 错误 1
+17:03:57 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:148:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:152:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:346:5: error: 'err' undeclared (first use in this function)
+     err = tcp_connect(request_pcb, &ipaddress, port, tcp_connected_callback);
+     ^~~
+../src/main.c:346:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:352:4: warning: implicit declaration of function 'tcp_tmr' [-Wimplicit-function-declaration]
+    tcp_tmr();
+    ^~~~~~~
+../src/main.c: In function 'send_StartTCPTransfer':
+../src/main.c:521:11: warning: variable 'StartTCPTransfer_ptr' set but not used [-Wunused-but-set-variable]
+  uint8_t* StartTCPTransfer_ptr;
+           ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:520:8: warning: unused variable 'err' [-Wunused-variable]
+  err_t err;
+        ^~~
+At top level:
+../src/main.c:603:5: warning: 'IntcInitFunction' defined but not used [-Wunused-function]
+ int IntcInitFunction(u16 DeviceId){
+     ^~~~~~~~~~~~~~~~
+../src/main.c:183:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:127:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+make: *** [src/main.o] 错误 1
+17:04:35 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:148:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:152:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:353:4: warning: implicit declaration of function 'tcp_tmr' [-Wimplicit-function-declaration]
+    tcp_tmr();
+    ^~~~~~~
+../src/main.c: In function 'send_StartTCPTransfer':
+../src/main.c:522:11: warning: variable 'StartTCPTransfer_ptr' set but not used [-Wunused-but-set-variable]
+  uint8_t* StartTCPTransfer_ptr;
+           ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:521:8: warning: unused variable 'err' [-Wunused-variable]
+  err_t err;
+        ^~~
+At top level:
+../src/main.c:604:5: warning: 'IntcInitFunction' defined but not used [-Wunused-function]
+ int IntcInitFunction(u16 DeviceId){
+     ^~~~~~~~~~~~~~~~
+../src/main.c:183:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:127:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134996	   4316	92313888	92453200	582b950	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+17:06:19 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134996	   4316	92313888	92453200	582b950	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+17:24:00 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:148:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:152:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:354:4: warning: implicit declaration of function 'tcp_tmr' [-Wimplicit-function-declaration]
+    tcp_tmr();
+    ^~~~~~~
+../src/main.c: In function 'send_StartTCPTransfer':
+../src/main.c:523:11: warning: variable 'StartTCPTransfer_ptr' set but not used [-Wunused-but-set-variable]
+  uint8_t* StartTCPTransfer_ptr;
+           ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:522:8: warning: unused variable 'err' [-Wunused-variable]
+  err_t err;
+        ^~~
+At top level:
+../src/main.c:605:5: warning: 'IntcInitFunction' defined but not used [-Wunused-function]
+ int IntcInitFunction(u16 DeviceId){
+     ^~~~~~~~~~~~~~~~
+../src/main.c:183:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:127:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134996	   4316	92313888	92453200	582b950	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+17:26:34 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134980	   4316	92313888	92453184	582b940	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+17:27:23 **** Incremental Build of configuration Debug for project LWIP_Echo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:28:31 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:31:53 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/Adc9228_func.c: In function 'tcp_connected_callback':
+../src/Adc9228_func.c:500:11: error: 'tpcb' undeclared (first use in this function)
+  tcp_sent(tpcb, tcp_sent_callback);
+           ^~~~
+../src/Adc9228_func.c:500:11: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Adc9228_func.o] 错误 1
+17:32:44 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Adc9228_func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adc9228_func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Adc9228_func.d" -MT"src/Adc9228_func.o" -o "src/Adc9228_func.o" "../src/Adc9228_func.c"
+../src/Adc9228_func.c: In function 'send_received_data':
+../src/Adc9228_func.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Adc9228_func.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o ./src/timer_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134916	   4316	92313888	92453120	582b900	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+19:04:44 **** Auto Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:355:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+At top level:
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+make: *** 没有规则可以创建“src/timer_intr.o”需要的目标“../src/timer_intr.c”。 停止。
+21:35:26 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Adc9228_LWIP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:147:18: warning: 'rx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * rx_bufferPtr = (uint8_t *)rx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:151:18: warning: 'tx_bufferPtr' initialized and declared 'extern'
+ extern uint8_t * tx_bufferPtr= (uint8_t *)tx_buffer;
+                  ^~~~~~~~~~~~
+../src/main.c:180:17: warning: 'INTCInstPtr' defined but not used [-Wunused-variable]
+ static XScuGic *INTCInstPtr = &INTCInst;
+                 ^~~~~~~~~~~
+../src/main.c:126:12: warning: 'ResetRxCntr' defined but not used [-Wunused-variable]
+ static int ResetRxCntr = 0;
+            ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Adc9228_LWIP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Adc9228_LWIP_bsp/ps7_cortexa9_0/lib -o "Adc9228_LWIP.elf"  ./src/Adc9228_func.o ./src/Trigger.o ./src/UpdateFirm.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/spips.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Adc9228_LWIP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Adc9228_LWIP.elf  |tee "Adc9228_LWIP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 173272	   4708	92313888	92491868	583505c	Adc9228_LWIP.elf
+'Finished building: Adc9228_LWIP.elf.size'
+' '
+21:43:02 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

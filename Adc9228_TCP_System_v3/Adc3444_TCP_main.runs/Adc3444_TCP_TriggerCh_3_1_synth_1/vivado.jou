@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep  6 11:55:49 2023
+# Process ID: 6320
+# Current directory: E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/Adc3444_TCP_TriggerCh_3_1_synth_1
+# Command line: vivado.exe -log Adc3444_TCP_TriggerCh_3_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adc3444_TCP_TriggerCh_3_1.tcl
+# Log file: E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/Adc3444_TCP_TriggerCh_3_1_synth_1/Adc3444_TCP_TriggerCh_3_1.vds
+# Journal file: E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.runs/Adc3444_TCP_TriggerCh_3_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Adc3444_TCP_TriggerCh_3_1.tcl -notrace

@@ -1,0 +1,715 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep  7 16:37:45 2023
+# Process ID: 10588
+# Current directory: E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2
+# Command line: vivado.exe -log Adc9228_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adc9228_top.tcl
+# Log file: E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/Adc9228_top.vds
+# Journal file: E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source Adc9228_top.tcl -notrace
+Command: synth_design -top Adc9228_top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8372 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 456.820 ; gain = 94.176
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Adc9228_top' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:23]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'sys_ctrl' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/sys_ctrl.v:1]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_2' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/clk_wiz_2_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_2' (1#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/clk_wiz_2_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'sys_ctrl' (2#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/sys_ctrl.v:1]
+INFO: [Synth 8-638] synthesizing module 'adc_1' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/adc_1.v:1]
+	Parameter Tap_DCO bound to: 5'b11110 
+	Parameter Tap_CH0 bound to: 5'b10101 
+	Parameter Tap_CH1 bound to: 5'b10000 
+	Parameter Tap_CH2 bound to: 5'b10110 
+	Parameter Tap_CH3 bound to: 5'b10110 
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19483]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: TRUE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (3#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19483]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_3' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/clk_wiz_3_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_3' (4#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/clk_wiz_3_stub.v:5]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/adc_1.v:86]
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21504]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (5#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21504]
+INFO: [Synth 8-638] synthesizing module 'IDELAYE2' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VAR_LOAD - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: CLOCK - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'IDELAYE2' (6#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30648]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (7#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30648]
+INFO: [Synth 8-638] synthesizing module 'OBUFDS' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:27284]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-256] done synthesizing module 'OBUFDS' (8#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:27284]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (9#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'io' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/io.v:23]
+INFO: [Synth 8-638] synthesizing module 'IDELAYE2__parameterized0' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VAR_LOAD - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'IDELAYE2__parameterized0' (9#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21517]
+INFO: [Synth 8-638] synthesizing module 'IDDR' [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21382]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE_PIPELINED - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IDDR' (10#1) [E:/Vivado2017.4/Vivado/2017.4/scripts/rt/data/unisim_comp.v:21382]
+INFO: [Synth 8-256] done synthesizing module 'io' (11#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/io.v:23]
+INFO: [Synth 8-638] synthesizing module 'pulse_generator' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/pulse_generator.v:25]
+	Parameter T_1ms bound to: 24'b000000110000110101000000 
+	Parameter T_2ms bound to: 24'b000001100001101010000000 
+	Parameter T_3ms bound to: 24'b000010010010011111000000 
+INFO: [Synth 8-256] done synthesizing module 'pulse_generator' (12#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/pulse_generator.v:25]
+INFO: [Synth 8-256] done synthesizing module 'adc_1' (13#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/adc_1.v:1]
+INFO: [Synth 8-638] synthesizing module 'AD_control' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:23]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter Wait_TRACK_down bound to: 4'b0001 
+	Parameter Wait_PM_up bound to: 4'b0010 
+	Parameter Start_Sample bound to: 4'b0011 
+	Parameter Check_process bound to: 4'b0100 
+INFO: [Synth 8-155] case statement is not full and has no default [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:276]
+INFO: [Synth 8-638] synthesizing module 'Delay3Claps' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Delay3Claps' (14#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:23]
+INFO: [Synth 8-638] synthesizing module 'generate_vaild' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v:23]
+	Parameter COUNT_NUM bound to: 1023 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'generate_vaild' (15#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v:23]
+WARNING: [Synth 8-6014] Unused sequential element PMcnt_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:117]
+WARNING: [Synth 8-6014] Unused sequential element PM_int_down_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:129]
+WARNING: [Synth 8-6014] Unused sequential element PM_extra_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:141]
+WARNING: [Synth 8-6014] Unused sequential element TTL_cnt_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:168]
+INFO: [Synth 8-256] done synthesizing module 'AD_control' (16#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:23]
+INFO: [Synth 8-226] default block is never used [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:452]
+INFO: [Synth 8-226] default block is never used [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:593]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_0' (17#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/fifo_generator_0_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 's_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:647]
+WARNING: [Synth 8-689] width (17) of port connection 'm_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:651]
+WARNING: [Synth 8-689] width (17) of port connection 's_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:682]
+WARNING: [Synth 8-689] width (17) of port connection 'm_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:686]
+WARNING: [Synth 8-689] width (17) of port connection 's_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:717]
+WARNING: [Synth 8-689] width (17) of port connection 'm_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:721]
+WARNING: [Synth 8-689] width (17) of port connection 's_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:752]
+WARNING: [Synth 8-689] width (17) of port connection 'm_axis_tdata' does not match port width (32) of module 'fifo_generator_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:756]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:765]
+INFO: [Synth 8-638] synthesizing module 'ila_1' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_1' (18#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/ila_1_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:776]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_0' (19#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'adc_1_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:231]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_fifo_0_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:776]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_generate_vaild_0_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:765]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_generator_3_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:743]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_generator_2_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:708]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_generator_1_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:673]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fifo_generator_0_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:638]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'AD_control_inst'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:286]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'sys_ctrl_ins'. This will prevent further optimization [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:222]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:444]
+INFO: [Synth 8-256] done synthesizing module 'Adc9228_top' (20#1) [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/Adc9228_top.v:23]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[15]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[14]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[13]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[12]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[11]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[10]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[9]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[8]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[7]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[6]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[5]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[4]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[3]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[2]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[1]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[0]
+WARNING: [Synth 8-3331] design io has unconnected port rst_n
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 508.270 ; gain = 145.625
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 508.270 ; gain = 145.625
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp5/clk_wiz_1_in_context.xdc] for cell 'adc_1_ins/clk_wiz_3_inst'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp5/clk_wiz_1_in_context.xdc] for cell 'adc_1_ins/clk_wiz_3_inst'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp6/clk_wiz_2_in_context.xdc] for cell 'sys_ctrl_ins/clk_wiz_2_inst'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp6/clk_wiz_2_in_context.xdc] for cell 'sys_ctrl_ins/clk_wiz_2_inst'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_0_ins'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_0_ins'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_1_ins'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_1_ins'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_2_ins'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_2_ins'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_3_ins'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp7/fifo_generator_0_in_context.xdc] for cell 'fifo_generator_3_ins'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp8/ila_0_in_context.xdc] for cell 'ila_fifo_0_ins'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp8/ila_0_in_context.xdc] for cell 'ila_fifo_0_ins'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp9/ila_1_in_context.xdc] for cell 'ila_generate_vaild_0_ins'
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp9/ila_1_in_context.xdc] for cell 'ila_generate_vaild_0_ins'
+Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/dont_touch.xdc]
+Finished Parsing XDC File [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 874.207 ; gain = 0.094
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ila_fifo_0_ins' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ila_generate_vaild_0_ins' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 875.582 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 875.582 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_40m_i. (constraint file  E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp6/clk_wiz_2_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_40m_i. (constraint file  E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/.Xil/Vivado-10588-LAPTOP-7RHB2PA2/dcp6/clk_wiz_2_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for adc_1_ins/clk_wiz_3_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_generator_0_ins. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_generator_1_ins. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_generator_2_ins. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_generator_3_ins. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ila_fifo_0_ins. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ila_generate_vaild_0_ins. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for sys_ctrl_ins/clk_wiz_2_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 875.582 ; gain = 512.938
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element cntDelay_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/pulse_generator.v:37]
+WARNING: [Synth 8-6014] Unused sequential element count_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v:42]
+INFO: [Synth 8-4471] merging register 'Data_Ch1_valid_reg' into 'Data_Ch0_valid_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:269]
+INFO: [Synth 8-4471] merging register 'Data_Ch2_valid_reg' into 'Data_Ch0_valid_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:271]
+INFO: [Synth 8-4471] merging register 'Data_Ch3_reg[15:0]' into 'Data_Ch2_reg[15:0]' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:272]
+INFO: [Synth 8-4471] merging register 'Data_Ch3_valid_reg' into 'Data_Ch0_valid_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:273]
+INFO: [Synth 8-4471] merging register 'Data_Ch1_valid_D_reg' into 'Data_Ch0_valid_D_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:336]
+INFO: [Synth 8-4471] merging register 'Data_Ch2_valid_D_reg' into 'Data_Ch0_valid_D_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:337]
+INFO: [Synth 8-4471] merging register 'DataToTriCh3_reg_reg[15:0]' into 'DataToTriCh2_reg_reg[15:0]' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:328]
+INFO: [Synth 8-4471] merging register 'Data_Ch3_valid_D_reg' into 'Data_Ch0_valid_D_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:338]
+INFO: [Synth 8-4471] merging register 'DataToTriCh3_reg_D_reg[15:0]' into 'DataToTriCh2_reg_D_reg[15:0]' [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:333]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch1_valid_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:269]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch2_valid_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:271]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch3_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:272]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch3_valid_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:273]
+WARNING: [Synth 8-6014] Unused sequential element DataToTriCh3_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:328]
+WARNING: [Synth 8-6014] Unused sequential element DataToTriCh3_reg_D_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:333]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch1_valid_D_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:336]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch2_valid_D_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:337]
+WARNING: [Synth 8-6014] Unused sequential element Data_Ch3_valid_D_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:338]
+INFO: [Synth 8-802] inferred FSM for state register 'AD_state_reg' in module 'AD_control'
+INFO: [Synth 8-5544] ROM "Data_Ch0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AD_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element delay_cnt_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:251]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                             0000
+              Wait_PM_up |                               01 |                             0010
+            Start_Sample |                               10 |                             0011
+           Check_process |                               11 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'AD_state_reg' using encoding 'sequential' in module 'AD_control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 875.582 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               17 Bit    Registers := 8     
+	               16 Bit    Registers := 9     
+	               12 Bit    Registers := 8     
+	               11 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 40    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   4 Input     16 Bit        Muxes := 3     
+	   2 Input     11 Bit        Muxes := 4     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 25    
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Adc9228_top 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
+	               17 Bit    Registers := 8     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+Module sys_ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module io 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+Module Delay3Claps 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module generate_vaild 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module AD_control 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 9     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 3     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch1_inst/TrigInChx_d1_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d1_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:34]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch1_inst/TrigInChx_d2_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d2_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:35]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch1_inst/TrigInChx_d3_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d3_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:36]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch2_inst/TrigInChx_d1_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d1_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:34]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch2_inst/TrigInChx_d2_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d2_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:35]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch2_inst/TrigInChx_d3_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d3_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:36]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch3_inst/TrigInChx_d1_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d1_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:34]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch3_inst/TrigInChx_d2_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d2_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:35]
+INFO: [Synth 8-4471] merging register 'Delay3Claps_Ch3_inst/TrigInChx_d3_reg_reg' into 'Delay3Claps_Ch0_inst/TrigInChx_d3_reg_reg' [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:36]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch1_inst/TrigInChx_d1_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:34]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch1_inst/TrigInChx_d2_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:35]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch1_inst/TrigInChx_d3_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:36]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch2_inst/TrigInChx_d1_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:34]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch2_inst/TrigInChx_d2_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:35]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch2_inst/TrigInChx_d3_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:36]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch3_inst/TrigInChx_d1_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:34]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch3_inst/TrigInChx_d2_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:35]
+WARNING: [Synth 8-6014] Unused sequential element Delay3Claps_Ch3_inst/TrigInChx_d3_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/Delay3Claps.v:36]
+WARNING: [Synth 8-6014] Unused sequential element delay_cnt_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:251]
+WARNING: [Synth 8-6014] Unused sequential element load_pulse/cntDelay_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/pulse_generator.v:37]
+WARNING: [Synth 8-6014] Unused sequential element Ch0_generate_vaild_ins/count_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v:42]
+WARNING: [Synth 8-6014] Unused sequential element Ch1_generate_vaild_ins/count_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v:42]
+WARNING: [Synth 8-6014] Unused sequential element Ch2_generate_vaild_ins/count_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v:42]
+WARNING: [Synth 8-6014] Unused sequential element Ch3_generate_vaild_ins/count_reg_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.srcs/sources_1/new/generate_vaild.v:42]
+WARNING: [Synth 8-6014] Unused sequential element delay_cnt_reg was removed.  [E:/ZynqProject_v17/Adc9228_top_axi_v2/src/AD_control.v:251]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[15]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[14]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[13]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[12]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[11]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[10]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[9]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[8]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[7]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[6]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[5]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[4]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[3]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[2]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[1]
+WARNING: [Synth 8-3331] design AD_control has unconnected port AdcDataCh3[0]
+WARNING: [Synth 8-3331] design adc_1 has unconnected port rst_n
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design Adc9228_top has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'axi_rresp_reg[0]' (FDRE) to 'axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'axi_bresp_reg[0]' (FDRE) to 'axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (axi_bresp_reg[1]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[31]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[30]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[29]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[28]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[27]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[26]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[25]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[24]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[23]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[22]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[21]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[20]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[19]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[18]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[17]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[16]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[15]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[14]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[13]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[12]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[11]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[10]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[9]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[8]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[7]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[6]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[5]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[4]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[1]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[0]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[31]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[30]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[29]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[28]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[27]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[26]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[25]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[24]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[23]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[22]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[21]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[20]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[19]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[18]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[17]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[16]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[15]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[14]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[13]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[12]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[11]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[10]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[9]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[8]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[7]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[6]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[5]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[4]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[1]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[0]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (axi_rresp_reg[1]) is unused and will be removed from module Adc9228_top.
+WARNING: [Synth 8-3332] Sequential element (TRACK_D1_reg) is unused and will be removed from module AD_control.
+WARNING: [Synth 8-3332] Sequential element (TRACK_D2_reg) is unused and will be removed from module AD_control.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 875.582 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'adc_1_ins/clk_wiz_3_inst/clk_in1' to pin 'adc_1_ins/IBUFDS_fclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'adc_1_ins/clk_wiz_3_inst/clk_out1' to pin 'adc_1_ins/clk_wiz_3_inst/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'adc_1_ins/clk_wiz_3_inst/clk_in1' to 'adc_1_ins/IBUFDS_fclk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'sys_ctrl_ins/clk_wiz_2_inst/clk_out1' to pin 'sys_ctrl_ins/clk_wiz_2_inst/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'sys_ctrl_ins/clk_wiz_2_inst/clk_out2' to pin 'sys_ctrl_ins/clk_wiz_2_inst/bbstub_clk_out2/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'sys_ctrl_ins/clk_wiz_2_inst/clk_out3' to pin 'sys_ctrl_ins/clk_wiz_2_inst/bbstub_clk_out3/O'
+INFO: [Synth 8-5819] Moved 5 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 875.582 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 885.414 ; gain = 522.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                  | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|AD_control  | Delay3Claps_Ch0_inst/TrigInChx_d3_reg_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+-------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |clk_wiz_2        |         1|
+|2     |clk_wiz_3        |         1|
+|3     |fifo_generator_0 |         4|
+|4     |ila_1            |         1|
+|5     |ila_0            |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |clk_wiz_2           |     1|
+|2     |clk_wiz_3           |     1|
+|3     |fifo_generator_0    |     1|
+|4     |fifo_generator_0__1 |     1|
+|5     |fifo_generator_0__2 |     1|
+|6     |fifo_generator_0__3 |     1|
+|7     |ila_0               |     1|
+|8     |ila_1               |     1|
+|9     |BUFG                |     2|
+|10    |CARRY4              |    14|
+|11    |IDDR                |     4|
+|12    |IDELAYCTRL          |     1|
+|13    |IDELAYE2            |     4|
+|14    |IDELAYE2_1          |     1|
+|15    |LUT1                |     9|
+|16    |LUT2                |    98|
+|17    |LUT3                |    12|
+|18    |LUT4                |    37|
+|19    |LUT5                |    18|
+|20    |LUT6                |    60|
+|21    |ODDR                |     1|
+|22    |SRL16E              |     1|
+|23    |FDCE                |   273|
+|24    |FDRE                |   395|
+|25    |FDSE                |     1|
+|26    |IBUF                |    51|
+|27    |IBUFDS              |     6|
+|28    |OBUF                |   113|
+|29    |OBUFDS              |     1|
++------+--------------------+------+
+
+Report Instance Areas: 
++------+---------------------------+-----------------+------+
+|      |Instance                   |Module           |Cells |
++------+---------------------------+-----------------+------+
+|1     |top                        |                 |  1255|
+|2     |  sys_ctrl_ins             |sys_ctrl         |    11|
+|3     |  adc_1_ins                |adc_1            |   161|
+|4     |    ch0_idelay             |io               |    27|
+|5     |    ch1_idelay             |io_3             |    27|
+|6     |    ch2_idelay             |io_4             |    27|
+|7     |    ch3_idelay             |io_5             |    27|
+|8     |    load_pulse             |pulse_generator  |    45|
+|9     |  AD_control_inst          |AD_control       |   436|
+|10    |    Ch0_generate_vaild_ins |generate_vaild   |    29|
+|11    |    Ch1_generate_vaild_ins |generate_vaild_0 |    29|
+|12    |    Ch2_generate_vaild_ins |generate_vaild_1 |    30|
+|13    |    Ch3_generate_vaild_ins |generate_vaild_2 |    29|
+|14    |    Delay3Claps_Ch0_inst   |Delay3Claps      |     7|
++------+---------------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 115 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 887.449 ; gain = 157.492
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 887.449 ; gain = 524.805
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 82 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+104 Infos, 156 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 892.367 ; gain = 531.484
+INFO: [Common 17-1381] The checkpoint 'E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/Adc9228_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Adc9228_top_utilization_synth.rpt -pb Adc9228_top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 892.367 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  7 16:38:23 2023...

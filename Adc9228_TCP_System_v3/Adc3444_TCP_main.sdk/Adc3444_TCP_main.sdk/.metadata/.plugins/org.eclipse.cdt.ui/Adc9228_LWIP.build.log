@@ -1,0 +1,8 @@
+21:43:02 **** Incremental Build of configuration Debug for project Adc9228_LWIP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+21:43:03 Build Finished (took 430ms)
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/ZynqProject_v17/Adc9228_TCP_System_v2/Adc3444_TCP_main.hw/hw_1/wave/hw_ila_data_10/hw_ila_data_10.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2843827fs"></ZoomEndTime>
+      <Cursor1Time time="3212000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="154"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="Adc3444_TCP_i/Adc9228_top_0_DataToTriCh1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/Adc9228_top_0_DataToTriCh1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Adc9228_top_0_DataToTriCh1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/Adc9228_top_0_TrigInCh1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/Adc9228_top_0_TrigInCh1</obj_property>
+      <obj_property name="ObjectShortName">Adc9228_top_0_TrigInCh1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/TriggerCh_1_oStateToFINISHIntr" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/TriggerCh_1_oStateToFINISHIntr</obj_property>
+      <obj_property name="ObjectShortName">TriggerCh_1_oStateToFINISHIntr</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/TriggerCh_1_m_axi_awaddr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/TriggerCh_1_m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TriggerCh_1_m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/TriggerCh_1_m_axi_wdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/TriggerCh_1_m_axi_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">TriggerCh_1_m_axi_wdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

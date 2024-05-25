@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Sep  9 18:53:36 2023
+# Process ID: 19080
+# Current directory: E:/ZynqProject_v17/Adc9228_top_axi_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16452 E:\ZynqProject_v17\Adc9228_top_axi_v2\Adc9228_top_axi.xpr
+# Log file: E:/ZynqProject_v17/Adc9228_top_axi_v2/vivado.log
+# Journal file: E:/ZynqProject_v17/Adc9228_top_axi_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.xpr
+update_compile_order -fileset sources_1

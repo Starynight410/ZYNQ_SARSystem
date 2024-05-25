@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/ZynqProject_v17/Adc9228_TCP_System_v3/Adc3444_TCP_main.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2815451fs"></ZoomEndTime>
+      <Cursor1Time time="1990000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="273"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="Adc3444_TCP_i/Adc9228_top_0/inst/clk_10m_o" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/Adc9228_top_0/inst/clk_10m_o</obj_property>
+      <obj_property name="ObjectShortName">clk_10m_o</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/Adc9228_top_0/inst/Data_Ch0_tlast" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/Adc9228_top_0/inst/Data_Ch0_tlast</obj_property>
+      <obj_property name="ObjectShortName">Data_Ch0_tlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/Adc9228_top_0/inst/Data_Ch0_wr_en" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/Adc9228_top_0/inst/Data_Ch0_wr_en</obj_property>
+      <obj_property name="ObjectShortName">Data_Ch0_wr_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/Adc9228_top_0/inst/TrigInCh0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/Adc9228_top_0/inst/TrigInCh0</obj_property>
+      <obj_property name="ObjectShortName">TrigInCh0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Adc3444_TCP_i/Adc9228_top_0/inst/count_Ch0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Adc3444_TCP_i/Adc9228_top_0/inst/count_Ch0[10:0]</obj_property>
+      <obj_property name="ObjectShortName">count_Ch0[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

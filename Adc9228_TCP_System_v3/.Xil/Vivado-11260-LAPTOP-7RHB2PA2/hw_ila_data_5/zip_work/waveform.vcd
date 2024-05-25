@@ -1,0 +1,22 @@
+$date
+        2023-Aug-31 14:37:01
+$end
+$version
+        Vivado v2017.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 16 " Adc3444_TCP_i/TriggerCh_2/inst/iAdcData [15:0] $end
+$var reg 1 2 Adc3444_TCP_i/TriggerCh_2/inst/iAdcData_Tri $end
+$var reg 1 3 Adc3444_TCP_i/TriggerCh_2/inst/oStateToFINISHIntr $end
+$var reg 64 4 Adc3444_TCP_i/TriggerCh_2/inst/m_axi_wdata [63:0] $end
+$var reg 1 t Adc3444_TCP_i/TriggerCh_2/inst/m_axi_wvalid $end
+$var reg 32 u Adc3444_TCP_i/TriggerCh_2/inst/m_axi_awaddr [31:0] $end
+$var reg 32 7" Adc3444_TCP_i/TriggerCh_2/inst/wTrigToggle [31:0] $end
+$var reg 1 W" _TRIGGER $end
+$var reg 1 X" _WINDOW $end
+$var reg 1 Y" _GAP $end
+$upscope $end
+$enddefinitions $end

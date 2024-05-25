@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TriggerCh_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TriggerCh" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1501000000001fs"></ZoomEndTime>
+      <Cursor1Time time="402597600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="211"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_TriggerCh/m_axi_wdata" type="array">
+      <obj_property name="ElementShortName">m_axi_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/m_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/inst_TriggerCh/wTrigToggle" type="array">
+      <obj_property name="ElementShortName">wTrigToggle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wTrigToggle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/inst_TriggerCh/oStateToFINISHIntr" type="logic">
+      <obj_property name="ElementShortName">oStateToFINISHIntr</obj_property>
+      <obj_property name="ObjectShortName">oStateToFINISHIntr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/AD_control_inst/AD_state" type="array">
+      <obj_property name="ElementShortName">AD_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AD_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/inst_TriggerCh/m_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/inst_TriggerCh/m_axi_awready" type="logic">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/TrigInCh0" type="logic">
+      <obj_property name="ElementShortName">TrigInCh0</obj_property>
+      <obj_property name="ObjectShortName">TrigInCh0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/clk_10m_o" type="logic">
+      <obj_property name="ElementShortName">clk_10m_o</obj_property>
+      <obj_property name="ObjectShortName">clk_10m_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/Data_Ch0_wr_en" type="logic">
+      <obj_property name="ElementShortName">Data_Ch0_wr_en</obj_property>
+      <obj_property name="ObjectShortName">Data_Ch0_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/AD_control_inst/Ch0_generate_vaild_ins/count" type="array">
+      <obj_property name="ElementShortName">count[10:0]</obj_property>
+      <obj_property name="ObjectShortName">count[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/DataToTriCh0_pack" type="array">
+      <obj_property name="ElementShortName">DataToTriCh0_pack[16:0]</obj_property>
+      <obj_property name="ObjectShortName">DataToTriCh0_pack[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/DataToTriCh0_pack_d1" type="array">
+      <obj_property name="ElementShortName">DataToTriCh0_pack_d1[16:0]</obj_property>
+      <obj_property name="ObjectShortName">DataToTriCh0_pack_d1[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/DataToTriCh0_pack_d2" type="array">
+      <obj_property name="ElementShortName">DataToTriCh0_pack_d2[16:0]</obj_property>
+      <obj_property name="ObjectShortName">DataToTriCh0_pack_d2[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/clk_100m_o" type="logic">
+      <obj_property name="ElementShortName">clk_100m_o</obj_property>
+      <obj_property name="ObjectShortName">clk_100m_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/DataToTriCh0_o_pack" type="array">
+      <obj_property name="ElementShortName">DataToTriCh0_o_pack[16:0]</obj_property>
+      <obj_property name="ObjectShortName">DataToTriCh0_o_pack[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/Data_Ch0_tlast" type="logic">
+      <obj_property name="ElementShortName">Data_Ch0_tlast</obj_property>
+      <obj_property name="ObjectShortName">Data_Ch0_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/s_axil_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axil_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/s_axil_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axil_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axil_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/s_axil_awready" type="logic">
+      <obj_property name="ElementShortName">s_axil_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axil_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/s_axil_wdata" type="array">
+      <obj_property name="ElementShortName">s_axil_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/s_axil_araddr" type="array">
+      <obj_property name="ElementShortName">s_axil_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axil_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/inst_TriggerCh/oStateToFINISHIntr" type="logic">
+      <obj_property name="ElementShortName">oStateToFINISHIntr</obj_property>
+      <obj_property name="ObjectShortName">oStateToFINISHIntr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/TrigInCh0_o" type="logic">
+      <obj_property name="ElementShortName">TrigInCh0_o</obj_property>
+      <obj_property name="ObjectShortName">TrigInCh0_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TriggerCh/DataToTriCh0_o" type="array">
+      <obj_property name="ElementShortName">DataToTriCh0_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DataToTriCh0_o[15:0]</obj_property>
+   </wvobject>
+</wave_config>

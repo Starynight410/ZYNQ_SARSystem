@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Adc3444_TCP_Adc3444_top_0_1_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_Adc3444_top_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_processing_system7_0_0_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_xlconcat_0_0_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_xlconcat_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_xlslice_0_0_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_xlslice_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_xlslice_1_0_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_xlslice_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_rst_Adc3444_top_0_9_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_rst_Adc3444_top_0_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_rst_Adc3444_top_1_9_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_rst_Adc3444_top_1_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="Adc3444_TCP_rst_Adc3444_top_0_9_synth_1"/>
+	</Run>
+	<Run Id="Adc3444_TCP_axi_smc_2_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_axi_smc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_axi_smc_1_1_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_axi_smc_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_axi_smc_2_1_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_axi_smc_2_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_rst_Adc3444_top_2_8_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_rst_Adc3444_top_2_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="Adc3444_TCP_rst_Adc3444_top_0_9_synth_1"/>
+	</Run>
+	<Run Id="Adc3444_TCP_rst_Adc3444_top_3_7_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_rst_Adc3444_top_3_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="Adc3444_TCP_rst_Adc3444_top_0_9_synth_1"/>
+	</Run>
+	<Run Id="Adc3444_TCP_xbar_2_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_xbar_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Adc3444_TCP_auto_pc_0_synth_1" LaunchDir="D:/FPGA_learn/NCUT/TCP/Adc3444_TCP/Adc3444_TCP_main/Adc3444_TCP_main.runs/Adc3444_TCP_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

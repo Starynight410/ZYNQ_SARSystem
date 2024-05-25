@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Sep  9 18:53:36 2023
+# Process ID: 19080
+# Current directory: E:/ZynqProject_v17/Adc9228_top_axi_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16452 E:\ZynqProject_v17\Adc9228_top_axi_v2\Adc9228_top_axi.xpr
+# Log file: E:/ZynqProject_v17/Adc9228_top_axi_v2/vivado.log
+# Journal file: E:/ZynqProject_v17/Adc9228_top_axi_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/ZynqProject_v17/Adc9228_top_axi_v2/ZynqProject_v17'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/ZynqProject_v17/Adc9228_top_axi_v2/hangzhoufile_byx'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ZynqProject_v17/Adc9228_top_axi_v2'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/ZynqProject_v17/Adc9228_top_axi_v2/ZynqProject_v17'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/ZynqProject_v17/Adc9228_top_axi_v2/hangzhoufile_byx'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado2017.4/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 890.688 ; gain = 180.051
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep  9 18:54:00 2023...

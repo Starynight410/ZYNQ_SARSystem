@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep  7 16:37:45 2023
+# Process ID: 10588
+# Current directory: E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2
+# Command line: vivado.exe -log Adc9228_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adc9228_top.tcl
+# Log file: E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2/Adc9228_top.vds
+# Journal file: E:/ZynqProject_v17/Adc9228_top_axi_v2/Adc9228_top_axi.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source Adc9228_top.tcl -notrace
