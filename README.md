@@ -23,6 +23,6 @@ ZynqTCP_Concurrent_v1：网口+串口上位机
 
 # 系统结构
 ![image](image/ZYNQ_SAR.jpg)
-# 上位机
 
-# 采集测试
+# 测试结果
+![image](image/存数测试.jpg)
