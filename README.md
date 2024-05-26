@@ -34,8 +34,12 @@ Adc9228_top测试结果：
 
 TCP发送成功：
 
+<div align=center>
 <img src="image/存数测试.png" width="60%">
+</div>
 
 上位机界面：
 
+<div align=center>
 <img src="image/上位机界面.png" width="60%">
+</div>
