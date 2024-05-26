@@ -24,9 +24,7 @@ matlab程序：对修改前测量数据测距，测试性能使用
 ZynqTCP_Concurrent_v1：网口+串口上位机
 
 # 测试结果
-Adc9228_top测试结果：
-
-输入数据时序
+输入数据时序：
 
 Data_Cho_wr_en
 
