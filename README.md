@@ -7,7 +7,7 @@
 
 ③	（PS）配置和TCP传输模块：接收到中断后通过LWIP编写TCP网口发数给上位机，将数据加上包头，1包发送1024 Byte。选用PLL lmx2491，通过构造发射波形，通过SPI配置PLL构造斜波发射信号。
 
-# 开发环节
+# 开发环境
 Vivado 2017.4
 
 # 文件说明
@@ -27,7 +27,9 @@ ZynqTCP_Concurrent_v1：网口+串口上位机
 # 测试结果
 Adc9228_top测试结果：
 
-![image](image/存数测试.png)
+![image](image/前端测试1.png)
+![image](image/前端测试2.png)
+![image](image/前端测试3.png)
 
 TCP发送成功：
 
