@@ -25,4 +25,10 @@ ZynqTCP_Concurrent_v1：网口+串口上位机
 ![image](image/ZYNQ_SAR.jpg)
 
 # 测试结果
-![image](image/存数测试.jpg)
+Adc9228_top测试结果：
+
+![image](image/存数测试.png)
+
+TCP发送成功：
+
+![image](image/存数测试.png)
