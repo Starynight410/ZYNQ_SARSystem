@@ -32,7 +32,11 @@ Adc9228_top测试结果：
 <img src="image/前端测试3.png" width="60%">
 </div>
 
-TCP发送成功：
+测试写入和TCP发送：
+
+写入成功，基地址开始有无效数据，有效数据的开始计算为：DmaBasePtr + RingPtr，长度1024。
+
+写入完成通过TCP发送结果准确无误。（添加不同包头以区分四路采集数据）
 
 <div align=center>
 <img src="image/存数测试.png" width="60%">
