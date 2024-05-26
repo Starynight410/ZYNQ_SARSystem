@@ -26,6 +26,14 @@ ZynqTCP_Concurrent_v1：网口+串口上位机
 # 测试结果
 Adc9228_top测试结果：
 
+输入数据时序
+
+Data_Cho_wr_en
+
+Data_Cho_tlast
+
+DataToTriCh0_pack[16:0]，将TrigInCh0与16位数据连接为17位数据（原ADC数据12位高位补0）
+
 <div align=center>
 <img src="image/前端测试1.png" width="60%">
 <img src="image/前端测试2.png" width="60%">
