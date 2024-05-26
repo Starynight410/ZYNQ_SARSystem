@@ -26,19 +26,14 @@ ZynqTCP_Concurrent_v1：网口+串口上位机
 # 测试结果
 Adc9228_top测试结果：
 
-![image](image/前端测试1.png)
 <img src="image/前端测试1.png" width="60%">
-![image](image/前端测试2.png)
 <img src="image/前端测试2.png" width="60%">
-![image](image/前端测试3.png)
 <img src="image/前端测试3.png" width="60%">
 
 TCP发送成功：
 
-![image](image/存数测试.png)
 <img src="image/存数测试.png" width="60%">
 
 上位机界面：
 
-![image](image/上位机界面.png)
 <img src="image/上位机界面.png" width="60%">
