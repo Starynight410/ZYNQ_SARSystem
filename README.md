@@ -27,6 +27,7 @@ ZynqTCP_Concurrent_v1：网口+串口上位机
 Adc9228_top测试结果：
 
 ![image](image/前端测试1.png)
+<img src="image/前端测试1.png" width="50%">
 ![image](image/前端测试2.png)
 ![image](image/前端测试3.png)
 
