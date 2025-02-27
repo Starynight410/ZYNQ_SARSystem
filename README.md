@@ -33,9 +33,9 @@ Data_Cho_tlast
 DataToTriCh0_pack[16:0]，将TrigInCh0与16位数据连接为17位数据（原ADC数据12位高位补0）
 
 <div align=center>
-<img src="image/前端测试1.png" width="60%">
-<img src="image/前端测试2.png" width="60%">
-<img src="image/前端测试3.png" width="60%">
+<img src="image/前端测试1.png" width="100%">
+<img src="image/前端测试2.png" width="100%">
+<img src="image/前端测试3.png" width="100%">
 </div>
 
 测试写入和TCP发送：
@@ -45,11 +45,11 @@ DataToTriCh0_pack[16:0]，将TrigInCh0与16位数据连接为17位数据（原AD
 写入完成通过TCP发送结果准确无误。（添加不同包头以区分四路采集数据）
 
 <div align=center>
-<img src="image/存数测试.png" width="60%">
+<img src="image/存数测试.png" width="100%">
 </div>
 
 上位机界面：
 
 <div align=center>
-<img src="image/上位机界面.png" width="60%">
+<img src="image/上位机界面.png" width="100%">
 </div>
